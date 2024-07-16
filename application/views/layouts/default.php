@@ -89,7 +89,6 @@
                 </svg>
             </div>
             <a class="" href="/contacts" target="_blank">Контакты</a>
-
         </div>
         <div class="buttons">
             <div class="buttonpromo">
