@@ -1,0 +1,274 @@
+@font-face {
+  font-family: "Inter";
+  src: url("/public/fonts/Inter/static/Inter-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/public/fonts/Inter/static/Inter-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/public/fonts/Inter/static/Inter-SemiBold.ttf");
+  font-weight: 600;
+}
+body {
+  font: normal 18px "Inter", sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.buttonpromo {
+  width: 187px;
+  height: 53px;
+  border-radius: 3px;
+  background: #0F86D9;
+}
+.buttonpromo a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+header {
+  z-index: 10000;
+  background: white;
+  position: sticky;
+  top: 0;
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: #0B0A33;
+  box-shadow: 0 12px 24px 0 rgba(11, 10, 51, 0.0392156863);
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: #0B0A33;
+  background: #F5F5F5;
+}
+footer .block_form {
+  border-radius: 30px;
+  width: 70%;
+  margin: 150px auto;
+  background: white;
+}
+footer .block_form .one_column {
+  padding: 50px 80px;
+}
+footer .block_form .one_column .header {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 41.36px;
+  text-align: left;
+  color: #0B0A33;
+  margin-bottom: 30px;
+}
+footer .block_form .one_column .text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: #0B0A33;
+}
+footer .block_form .two_column {
+  padding: 50px 80px 50px 0;
+}
+footer .block_form .two_column .inputs input {
+  border: 1px solid #E5E5E5;
+  height: 56px;
+  padding-left: 20px;
+  box-shadow: none;
+  border-radius: 10px !important;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.09px;
+  text-align: left;
+  color: #0B0A33;
+  outline: none;
+  background: #F5F5F5;
+}
+footer .block_form .two_column .inputs .buttonpromo {
+  width: 177px;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+  color: white;
+}
+footer .block_form .two_column p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17.8px;
+  text-align: left;
+  color: #0B0A33;
+}
+footer .block_form .two_column p a {
+  color: #0B0A33;
+}
+footer .contacts {
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+footer .contacts .column {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+footer .contacts .column .level1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  justify-content: space-between;
+  color: #0B0A33;
+}
+footer .contacts .column .level1 .tel {
+  display: flex;
+  align-items: center;
+}
+footer .contacts .column .level1 .tel a {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  height: 40px;
+  color: #0B0A33;
+}
+footer .contacts .column .level1 .tel span {
+  padding-top: 5px;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+}
+footer .contacts .column .level1 p {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  height: 40px;
+}
+footer .contacts .column .level1 p a {
+  color: #0B0A33;
+}
+footer .contacts .column .level1 p span {
+  padding-top: 5px;
+  padding-left: 10px;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+}
+footer .contacts .column .level1 .icons {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .contacts .column .level1 .icons .ico {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+footer .contacts .column .level2 {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+}
+footer .contacts .column .level2 a {
+  color: #0B0A33;
+}
+footer .contacts .column .level2 .image {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+footer .contacts .column .level2 .image img {
+  height: 30px;
+  width: 30px;
+}
+footer .contacts .column .level2 .image p {
+  margin: 0;
+  padding-left: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+}
+footer .contacts .column .level2 p {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+  margin: 0;
+}
+footer .contacts .column .level2 p a {
+  color: #0B0A33;
+}
+footer hr {
+  margin: 25px auto;
+  width: 70%;
+}
+footer .info {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 0 auto 15px;
+}
+footer .info .column {
+  display: flex;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: left;
+}
+footer .info .column .level1 {
+  display: flex;
+  width: 50%;
+  margin-bottom: 30px;
+}
+footer .info .column .level1.alt {
+  align-items: end;
+}
+footer .info .column .level1 a {
+  color: #0B0A33;
+}
+footer .info .column .level1 img {
+  margin: 0;
+  padding-bottom: 4px;
+}
+footer .info .column .level1 p {
+  margin: 0;
+  padding-right: 10px;
+}
+footer .info .column .level2 {
+  display: flex;
+  width: 50%;
+}
+footer .info .column .level2 p a {
+  color: #0B0A33;
+}
+
+/*# sourceMappingURL=index.css.map */
