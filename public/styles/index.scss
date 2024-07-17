@@ -16,6 +16,12 @@
   font-weight: 600;
 }
 
+@font-face {
+  font-family: "Inter";
+  src: url("/public/fonts/Inter/static/Inter-Bold.ttf");
+  font-weight: 700;
+}
+
 
 $color-background: white;
 $font-main: normal 18px 'Inter', sans-serif;
@@ -82,12 +88,13 @@ header {
 footer {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  margin: 0;
-  padding: 0;
   color: $color-text;
-  background: #F5F5F5;
 
+  .block_map {
+    .map {
+      width: calc(100% - 400px);
+    }
+  }
 
   .block_form {
     //border: 1px solid #E5E5E5;
@@ -162,184 +169,6 @@ footer {
     }
   }
 
-  .contacts {
-    display: flex;
-    width: 70%;
-    margin: auto;
-
-    .column {
-      display: flex;
-      flex-direction: column;
-      width: 50%;
-
-      .level1 {
-        display: flex;
-        align-items: center;
-        margin-bottom: 30px;
-        justify-content: space-between;
-        color: $color-text;
-
-        .tel {
-          display: flex;
-          align-items: center;
-
-          a {
-            display: flex;
-            align-items: center;
-            margin: 0;
-            font-size: 18px;
-            font-weight: 400;
-            text-align: left;
-            height: 40px;
-            color: $color-text;
-          }
-
-          span {
-            padding-top: 5px;
-            font-size: 12px;
-            font-weight: 400;
-            text-align: left;
-          }
-        }
-
-        p {
-          display: flex;
-          align-items: center;
-          margin: 0;
-          font-size: 18px;
-          font-weight: 400;
-          text-align: left;
-          height: 40px;
-
-          a {
-            color: $color-text;
-          }
-
-          span {
-            padding-top: 5px;
-            padding-left: 10px;
-            font-size: 12px;
-            font-weight: 400;
-            text-align: left;
-          }
-        }
-
-        .icons {
-          width: 200px;
-          display: flex;
-          justify-content: space-between;
-
-          .ico {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            background: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-          }
-        }
-      }
-
-      .level2 {
-        display: flex;
-        flex-direction: column;
-        margin: 0;
-        font-size: 18px;
-        font-weight: 400;
-        text-align: left;
-
-        a {
-          color: $color-text;
-        }
-
-        .image {
-          display: flex;
-          align-items: center;
-          margin: 0;
-
-          img {
-            height: 30px;
-            width: 30px;
-          }
-
-          p {
-            margin: 0;
-            padding-left: 10px;
-            font-size: 18px;
-            font-weight: 400;
-            text-align: left;
-          }
-        }
-
-        p {
-          font-size: 12px;
-          font-weight: 400;
-          text-align: left;
-          margin: 0;
-
-          a {
-            color: $color-text;
-          }
-        }
-      }
-    }
-  }
-
-  hr {
-    margin: 25px auto;
-    width: 70%;
-  }
-
-  .info {
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    margin: 0 auto 15px;
-
-    .column {
-      display: flex;
-      font-size: 12px;
-      font-weight: 300;
-      text-align: left;
-
-      .level1 {
-        display: flex;
-        width: 50%;
-        margin-bottom: 30px;
-
-        &.alt {
-          align-items: end;
-        }
-
-        a {
-          color: $color-text;
-        }
-
-        img {
-          margin: 0;
-          padding-bottom: 4px;
-        }
-
-        p {
-          margin: 0;
-          padding-right: 10px;
-        }
-      }
-
-      .level2 {
-        display: flex;
-        width: 50%;
-
-        p {
-          a {
-            color: $color-text;
-          }
-        }
-      }
-    }
-  }
 }
 
 

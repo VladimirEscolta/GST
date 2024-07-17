@@ -13,6 +13,11 @@
   src: url("/public/fonts/Inter/static/Inter-SemiBold.ttf");
   font-weight: 600;
 }
+@font-face {
+  font-family: "Inter";
+  src: url("/public/fonts/Inter/static/Inter-Bold.ttf");
+  font-weight: 700;
+}
 body {
   font: normal 18px "Inter", sans-serif;
   background-color: white;
@@ -54,11 +59,10 @@ header {
 footer {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  margin: 0;
-  padding: 0;
   color: #0B0A33;
-  background: #F5F5F5;
+}
+footer .block_map .map {
+  width: calc(100% - 400px);
 }
 footer .block_form {
   border-radius: 30px;
@@ -119,155 +123,6 @@ footer .block_form .two_column p {
   color: #0B0A33;
 }
 footer .block_form .two_column p a {
-  color: #0B0A33;
-}
-footer .contacts {
-  display: flex;
-  width: 70%;
-  margin: auto;
-}
-footer .contacts .column {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-}
-footer .contacts .column .level1 {
-  display: flex;
-  align-items: center;
-  margin-bottom: 30px;
-  justify-content: space-between;
-  color: #0B0A33;
-}
-footer .contacts .column .level1 .tel {
-  display: flex;
-  align-items: center;
-}
-footer .contacts .column .level1 .tel a {
-  display: flex;
-  align-items: center;
-  margin: 0;
-  font-size: 18px;
-  font-weight: 400;
-  text-align: left;
-  height: 40px;
-  color: #0B0A33;
-}
-footer .contacts .column .level1 .tel span {
-  padding-top: 5px;
-  font-size: 12px;
-  font-weight: 400;
-  text-align: left;
-}
-footer .contacts .column .level1 p {
-  display: flex;
-  align-items: center;
-  margin: 0;
-  font-size: 18px;
-  font-weight: 400;
-  text-align: left;
-  height: 40px;
-}
-footer .contacts .column .level1 p a {
-  color: #0B0A33;
-}
-footer .contacts .column .level1 p span {
-  padding-top: 5px;
-  padding-left: 10px;
-  font-size: 12px;
-  font-weight: 400;
-  text-align: left;
-}
-footer .contacts .column .level1 .icons {
-  width: 200px;
-  display: flex;
-  justify-content: space-between;
-}
-footer .contacts .column .level1 .icons .ico {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-}
-footer .contacts .column .level2 {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  font-size: 18px;
-  font-weight: 400;
-  text-align: left;
-}
-footer .contacts .column .level2 a {
-  color: #0B0A33;
-}
-footer .contacts .column .level2 .image {
-  display: flex;
-  align-items: center;
-  margin: 0;
-}
-footer .contacts .column .level2 .image img {
-  height: 30px;
-  width: 30px;
-}
-footer .contacts .column .level2 .image p {
-  margin: 0;
-  padding-left: 10px;
-  font-size: 18px;
-  font-weight: 400;
-  text-align: left;
-}
-footer .contacts .column .level2 p {
-  font-size: 12px;
-  font-weight: 400;
-  text-align: left;
-  margin: 0;
-}
-footer .contacts .column .level2 p a {
-  color: #0B0A33;
-}
-footer hr {
-  margin: 25px auto;
-  width: 70%;
-}
-footer .info {
-  display: flex;
-  flex-direction: column;
-  width: 70%;
-  margin: 0 auto 15px;
-}
-footer .info .column {
-  display: flex;
-  font-size: 12px;
-  font-weight: 300;
-  text-align: left;
-}
-footer .info .column .level1 {
-  display: flex;
-  width: 50%;
-  margin-bottom: 30px;
-}
-footer .info .column .level1.alt {
-  align-items: end;
-}
-footer .info .column .level1 a {
-  color: #0B0A33;
-}
-footer .info .column .level1 img {
-  margin: 0;
-  padding-bottom: 4px;
-}
-footer .info .column .level1 p {
-  margin: 0;
-  padding-right: 10px;
-}
-footer .info .column .level2 {
-  display: flex;
-  width: 50%;
-}
-footer .info .column .level2 p a {
   color: #0B0A33;
 }
 
