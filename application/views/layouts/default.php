@@ -248,7 +248,7 @@
                     <a class="mt-5" href="/contacts" target="_blank">Контакты</a>
                 </div>
                 <div class="flex flex-col w-2/5">
-                    <div>Подписка</div>
+                    <div class="font-semibold">Подписка</div>
                     <div class="mt-5">Будьте в курсе наших последних новостей</div>
                     <div class="flex mt-5">
                         <form action='/' method='post' enctype='multipart/form-data' class="inputs">
@@ -262,7 +262,7 @@
                             </div>
                         </form>
                     </div>
-                    <div class="mt-5 text-xs" style="color: #FFFFFF99">Подписываясь, вы соглашаетесь с нашей Политикой
+                    <div class="mt-5 text-xs" style="color: #FFFFFF99; max-width: 474px">Подписываясь, вы соглашаетесь с нашей Политикой
                         конфиденциальности и соглашаетесь на электронную рассылку.
                     </div>
                 </div>
