@@ -23,6 +23,7 @@ body {
   background-color: white;
   margin: 0;
   padding: 0;
+  color: #0B0A33;
 }
 
 .buttonpromo {
@@ -79,67 +80,6 @@ footer .level_2 .block_info form button {
 }
 footer .level_2 hr {
   border-color: rgba(255, 255, 255, 0.2);
-}
-footer .block_form {
-  border-radius: 30px;
-  width: 70%;
-  margin: 150px auto;
-  background: white;
-}
-footer .block_form .one_column {
-  padding: 50px 80px;
-}
-footer .block_form .one_column .header {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 41.36px;
-  text-align: left;
-  color: #0B0A33;
-  margin-bottom: 30px;
-}
-footer .block_form .one_column .text {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 26px;
-  text-align: left;
-  color: #0B0A33;
-}
-footer .block_form .two_column {
-  padding: 50px 80px 50px 0;
-}
-footer .block_form .two_column .inputs input {
-  border: 1px solid #E5E5E5;
-  height: 56px;
-  padding-left: 20px;
-  box-shadow: none;
-  border-radius: 10px !important;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 16.09px;
-  text-align: left;
-  color: #0B0A33;
-  outline: none;
-  background: #F5F5F5;
-}
-footer .block_form .two_column .inputs .buttonpromo {
-  width: 177px;
-  height: 60px;
-  border-radius: 10px;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 26px;
-  text-align: center;
-  color: white;
-}
-footer .block_form .two_column p {
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 17.8px;
-  text-align: left;
-  color: #0B0A33;
-}
-footer .block_form .two_column p a {
-  color: #0B0A33;
 }
 
 /*# sourceMappingURL=index.css.map */

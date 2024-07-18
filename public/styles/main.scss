@@ -1,1 +1,40 @@
 @import "variables";
+
+.block_adv1 {
+  background: linear-gradient(90deg, #0F86D9 0%, #113E7C 100%);
+
+  .data {
+    .button {
+      width: 330px;
+      height: 110px;
+
+      a {
+        font-weight: 700;
+        font-size: 22px;
+        color: $color-company-main;
+      }
+    }
+  }
+
+}
+
+.block_key_functions {
+  .data {
+    .button {
+      background-color: $color-company-main;
+      width: 270px;
+      height: 70px;
+      border-radius: 3px;
+
+      a {
+        font-weight: 700;
+        font-size: 18px;
+        color: white;
+      }
+    }
+
+    .block_row {
+      border: 1px solid #0B0A331A
+    }
+  }
+}

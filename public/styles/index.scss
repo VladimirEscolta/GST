@@ -1,35 +1,11 @@
 @import "variables";
 
-@font-face {
-  font-family: "Inter";
-  src: url("/public/fonts/Inter/static/Inter-Regular.ttf");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url("/public/fonts/Inter/static/Inter-Medium.ttf");
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url("/public/fonts/Inter/static/Inter-SemiBold.ttf");
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url("/public/fonts/Inter/static/Inter-Bold.ttf");
-  font-weight: 700;
-}
-
-
 body {
   font: $font-main;
   background-color: $color-background;
   margin: 0;
   padding: 0;
+  color: $color-text;
 }
 
 .buttonpromo {
@@ -109,94 +85,4 @@ footer {
     }
   }
 
-
-
-
-  .block_form {
-    //border: 1px solid #E5E5E5;
-    border-radius: 30px;
-    width: 70%;
-    margin: 150px auto;
-    background: white;
-
-    .one_column {
-      padding: 50px 80px;
-
-      .header {
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 41.36px;
-        text-align: left;
-        color: $color-text;
-        margin-bottom: 30px;
-      }
-
-      .text {
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 26px;
-        text-align: left;
-        color: $color-text;
-      }
-    }
-
-    .two_column {
-      padding: 50px 80px 50px 0;
-
-      .inputs {
-        input {
-          border: 1px solid #E5E5E5;
-          height: 56px;
-          padding-left: 20px;
-          box-shadow: none;
-          border-radius: 10px !important;
-          font-size: 14px;
-          font-weight: 400;
-          line-height: 16.09px;
-          text-align: left;
-          color: $color-text;
-          outline: none;
-          background: #F5F5F5;
-        }
-
-        .buttonpromo {
-          width: 177px;
-          height: 60px;
-          border-radius: 10px;
-          font-size: 18px;
-          font-weight: 700;
-          line-height: 26px;
-          text-align: center;
-          color: white;
-        }
-      }
-
-      p {
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 17.8px;
-        text-align: left;
-        color: $color-text;
-
-        a {
-          color: $color-text;
-        }
-      }
-    }
-  }
-
 }
-
-
-//.uphome {
-//  display: none;
-//  position: fixed;
-//  left: 10px;
-//  /* bottom: 85px; */
-//  bottom: 10px;
-//  opacity: 0.3;
-//
-//  &:hover {
-//    opacity: 1;
-//  }
-//}

@@ -1,637 +1,92 @@
-<div class="block_video">
-    <img src="/public/images/blob_start.png" alt="" class="blob_start">
-    <div class="header mb-5">
-        <p class="level1">Сервис продвижения на маркетплейсах</p>
-        <p class="level2">Управление внутренней рекламой и аналитика</p>
-    </div>
-    <div class="data">
-        <div class="text">
-            <div class="toggle mb-5">
-                <p class="w-50 h-100 ozon" id="ozon">Ozon</p>
-                <p class="w-50 h-100 wb" id="wb">Wildberries</p>
-            </div>
-            <div class="video_mobile hide">
-                <iframe
-                        id="wb_video_mobile"
-                        class="hide"
-                        width="100%" height="100%"
-                        src="https://vk.com/video_ext.php?oid=-217721063&id=456239033&hd=4"
-                        title="БИДДЕР WILDBERRIES ⬆️ ПРОДВИЖЕНИЕ НА МАРКЕТПЛЕЙСАХ" frameBorder="0"
-                        allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen>
-                </iframe>
-                <iframe
-                        id="ozon_video_mobile"
-                        class=""
-                        width="100%" height="100%"
-                        src="https://vk.com/video_ext.php?oid=-217721063&id=456239032&hd=4"
-                        title="Продвижение на OZON  📊 АВТОБИДДЕР И АНАЛИТИКА" frameBorder="0"
-                        allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen>
-                </iframe>
-            </div>
-            <p class="text1 mb-5 pe-5 hide" id="wb_text">
-                Продвигайте товары с биддером ставок и отслеживайте продажи и конкурентов с помощью внешней аналитики
-            </p>
-            <p class="text1 mb-5 pe-5" id="ozon_text">
-                Оптимизируйте рекламные кампании и контролируйте показатели для увеличения продаж
-            </p>
-            <div class="buttonpromo mb-3">
-                <a href="https://mp.yourich.ru/register" target="_self">
-                    Попробовать бесплатно
+<div class="block_adv1 relative h-96 flex items-center justify-between mx-auto">
+    <img class="absolute top-0 left-0 right-0 mx-auto" src="/public/images/main/adv1_long.png" width="" alt="MDB Logo">
+    <img class="absolute bottom-0 left-0" src="/public/images/main/adv1.png" width="" alt="MDB Logo">
+    <img class="absolute bottom-0 right-0" src="/public/images/main/adv1.png" width="" alt="MDB Logo">
+    <div class="data w-11/12 mx-auto my-24 flex justify-between items-center">
+        <div class="text-5xl font-bold text-white">Готовы обсудить проект?</div>
+        <div class="button flex bg-white rounded-2xl items-center justify-center">
+            <div>
+                <a class="mr-4" href="/" target="_self">
+                    Написать нам
                 </a>
             </div>
-            <p class="text2">5 дней без ограничений</p>
-        </div>
-        <div class="video">
-            <iframe
-                    id="wb_video"
-                    class="hide"
-                    width="100%" height="100%"
-                    src="https://vk.com/video_ext.php?oid=-217721063&id=456239033&hd=4"
-                    title="БИДДЕР WILDBERRIES ⬆️ ПРОДВИЖЕНИЕ НА МАРКЕТПЛЕЙСАХ" frameBorder="0"
-                    allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen>
-            </iframe>
-            <iframe
-                    id="ozon_video"
-                    class=""
-                    width="100%" height="100%"
-                    src="https://vk.com/video_ext.php?oid=-217721063&id=456239032&hd=4"
-                    title="Продвижение на OZON  📊 АВТОБИДДЕР И АНАЛИТИКА" frameBorder="0"
-                    allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen>
-            </iframe>
-        </div>
-    </div>
-</div>
-
-<div class="block_adv1">
-    <div class="data">
-        <div class="one_column d-flex flex-column w-50">
-            <div class="header">Старт для начинающих селлеров</div>
-            <div class="text">Продвигайте товары и управляйте ставками, не сливая бюджет. Без ограничений по функциям.
-            </div>
-            <div class="buttonpromo">
-                <a href="https://mp.yourich.ru/register" target="_self">
-                    Подключить тариф
-                </a>
-            </div>
-        </div>
-        <div class="two_column d-flex flex-column w-50">
-            <img src="/public/images/rocket_1.png" alt="" class="rocket1">
-            <img src="/public/images/rocket_2.png" alt="" class="rocket2">
-            <img src="/public/images/rocket_symbol_1.png" alt="" class="rocket_symbol">
-        </div>
-    </div>
-</div>
-
-<div class="block_easywork">
-    <div class="header mb-5">
-        <div class="level1">С нами работать станет проще</div>
-    </div>
-    <div class="line mb-5">
-        <div class="block1">
-            <img src="/public/images/easyworkblock/easyworkblock_foto1.png" alt="" class="easyworkblock_foto1">
-        </div>
-        <div class="block2">
-            <div class="level1 mb-4">
-                Автобиддер ставок
-            </div>
-            <div class="block1_mobile hide">
-                <img src="/public/images/easyworkblock/easyworkblock_foto1.png" alt="" class="easyworkblock_foto1">
-            </div>
-            <div class="level2 mb-4">
-                Повышайте видимость товара и сохраняйте высокие позиции в поиске без постоянной корректировки.
-                Перебивайте ставки конкурентов, выбирайте регионы продвижения и задавайте интервалы работы.
-            </div>
-            <div class="buttonpromo">
-                <a href="https://mp.yourich.ru/register" target="_self">
-                    Протестировать сервис
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="line mb-5">
-        <div class="block2">
-            <div class="level1 mb-4">
-                Аналитика рекламных кампаний
-            </div>
-            <div class="block1_mobile hide">
-                <img src="/public/images/easyworkblock/easyworkblock_foto2.png" alt="" class="easyworkblock_foto2">
-            </div>
-            <div class="level2 mb-4">
-                Отслеживайте данные в едином кабинете и контролируйте показатели по кампаниям и товарам в них. Графики
-                формируются по каждому параметру за выбранный период.
-            </div>
-            <div class="buttonpromo">
-                <a href="https://mp.yourich.ru/register" target="_self">
-                    Протестировать сервис
-                </a>
-            </div>
-        </div>
-        <div class="block1 alt">
-            <img src="/public/images/easyworkblock/easyworkblock_foto2.png" alt="" class="easyworkblock_foto2">
-        </div>
-    </div>
-    <div class="line mb-5">
-        <div class="block1">
-            <img src="/public/images/easyworkblock/easyworkblock_foto3.png" alt="" class="easyworkblock_foto3">
-        </div>
-        <div class="block2">
-            <div class="level1 mb-4">
-                Внешняя аналитика Wildberries
-            </div>
-            <div class="block1_mobile hide">
-                <img src="/public/images/easyworkblock/easyworkblock_foto3.png" alt="" class="easyworkblock_foto3">
-            </div>
-            <div class="level2 mb-4">
-                <div class="text">Поиск по SKU</div>
-                <div class="text">Поиск по поставщику</div>
-                <div class="text">Категории</div>
-                <div class="text">Бренды</div>
-                <div class="text">Выбор ниши</div>
-                <div class="text">Поиск на площадке</div>
-                <div class="text">Рейтинг брендов</div>
-                <div class="text">Рейтинг продавцов</div>
-            </div>
-            <div class="buttonpromo" style="width: 200px">
-                <a href="/wb-analytics" target="_self">
-                    Подробнее
-                </a>
-            </div>
-        </div>
-    </div>
-    <img src="/public/images/blob1.png" alt="" class="blob1">
-</div>
-
-<div class="block_problem_solving">
-    <div class="header">
-        <div class="level1">Решаем любые задачи</div>
-    </div>
-    <div class="data">
-        <div class="width">
-            <div class="solution">
-                <img class="" src="/public/images/problem_solving/solution1.png" alt="solution1">
-                <p class="level1">Персональный менеджер</p>
-                <p class="level2">Познакомим с личным кабинетом и дадим рекомендации по стратегиям продвижения</p>
-            </div>
-        </div>
-        <div class="width">
-            <div class="solution">
-                <img src="/public/images/problem_solving/solution2.png" alt="solution2" class="">
-                <p class="level1">Разработка функционала</p>
-                <p class="level2">Реализуем предложения по дополнительным инструментам при технической возможности</p>
-            </div>
-        </div>
-        <div class="width">
-            <div class="solution">
-                <img src="/public/images/problem_solving/solution3.png" alt="solution3" class="">
-                <p class="level1">Поддержка <br> 24/7</p>
-                <p class="level2">Оперативно реагируем на рабочие вопросы и изменения функционала и АPI
-                    маркетплейсов</p>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="block_tariff" id="tariff">
-    <div class="header">
-        <div class="level1">Тарифы</div>
-        <div class="level2">Гибкие условия, которые подходят всем</div>
-        <div class="toggle">
-            <div class="button threemonth">-</div>
-            <div class="button sixmonth">-</div>
-            <div class="button twelvemonth">-</div>
-        </div>
-    </div>
-    <div class="content">
-        <div class="width">
-            <div class="tarif">
-                <div class="header">
-                    <div class="level1">
-                        <p class="name">-</p>
-                        <p class="description">Для малого бизнеса</p>
-                    </div>
-                    <div class="level2">
-                        <p class="price"></p>
-                        <span>₽</span>
-                        <p class="discount">-</p>
-                    </div>
-                    <div class="level3">
-                        <p class="sum">0</p>
-                        <span>&#8381</span>
-                        <p class="text">-</p>
-                    </div>
-                </div>
-                <div class="buttonpromo">
-                    <a href="https://mp.yourich.ru/register" target="_self">
-                        Попробовать бесплатно
-                    </a>
-                </div>
-                <div class="content">
-                    <ul>
-                        <li>1 магазин</li>
-                        <li>10 товаров</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="width">
-            <div class="tarif">
-                <div class="header">
-                    <div class="level1">
-                        <p class="name">-</p>
-                        <p class="description">Для среднего бизнеса</p>
-                    </div>
-                    <div class="level2">
-                        <p class="price"></p>
-                        <span>&#8381</span>
-                        <p class="discount">-</p>
-                    </div>
-                    <div class="level3">
-                        <p class="sum">0</p>
-                        <span>&#8381</span>
-                        <p class="text">-</p>
-                    </div>
-                </div>
-                <div class="buttonpromo">
-                    <a href="https://mp.yourich.ru/register" target="_self">
-                        Попробовать бесплатно
-                    </a>
-                </div>
-                <div class="content">
-                    <ul>
-                        <li>1-2 магазина</li>
-                        <li>30 товаров</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="width">
-            <div class="tarif">
-                <div class="header">
-                    <div class="level1">
-                        <p class="name">-</p>
-                        <p class="description">Для крупного бизнеса</p>
-                    </div>
-                    <div class="level2">
-                        <p class="price"></p>
-                        <span>&#8381</span>
-                        <p class="discount">-</p>
-                    </div>
-                    <div class="level3">
-                        <p class="sum">0</p>
-                        <span>&#8381</span>
-                        <p class="text">-</p>
-                    </div>
-                </div>
-                <div class="buttonpromo">
-                    <a href="https://mp.yourich.ru/register" target="_self">
-                        Попробовать бесплатно
-                    </a>
-                </div>
-                <div class="content">
-                    <ul>
-                        <li>до 5 магазинов</li>
-                        <li>100 товаров</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="width alt">
-            <div class="tarif">
-                <div class="header">
-                    <div class="level1">
-                        <p class="name">-</p>
-                        <p class="description"></p>
-                    </div>
-                    <div class="level2">
-                        <p class="price"></p>
-                        <span>&#8381</span>
-                        <p class="discount alt">-</p>
-                    </div>
-                    <div class="level3">
-                        <p class="sum">0</p>
-                        <span>&#8381</span>
-                        <p class="text">-</p>
-                    </div>
-                </div>
-                <div class="buttonpromo alt">
-                    <a class="alt" href="https://mp.yourich.ru/register" target="_self">
-                        Попробовать бесплатно
-                    </a>
-                </div>
-                <div class="content">
-                    <ul>
-                        <li class="alt">до 7 магазинов</li>
-                        <li class="alt">100+ товаров</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <img src="/public/images/blob2.png" alt="" class="blob2">
-</div>
-
-<div class="block_adv2">
-    <div class="level1">Свяжитесь с нами – мы ответим на вопросы и подберем тариф под ваши задачи</div>
-    <div class="level2">Персональный менеджер поможет разобраться до регистрации</div>
-    <div class="buttonpromo">
-        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g clip-path="url(#clip0_7056_4723)">
-                <path d="M20 0C14.6969 0 9.60625 2.10844 5.85938 5.85781C2.10863 9.60868 0.00103897 14.6956 0 20C0 25.3022 2.10938 30.3928 5.85938 34.1422C9.60625 37.8916 14.6969 40 20 40C25.3031 40 30.3937 37.8916 34.1406 34.1422C37.8906 30.3928 40 25.3022 40 20C40 14.6978 37.8906 9.60719 34.1406 5.85781C30.3937 2.10844 25.3031 0 20 0Z"
-                      fill="url(#paint0_linear_7056_4723)"/>
-                <path d="M9.05145 19.7898C14.8827 17.2498 18.7702 15.5751 20.7139 14.766C26.2702 12.4557 27.4233 12.0545 28.1764 12.0409C28.3421 12.0382 28.7108 12.0792 28.9515 12.2737C29.1515 12.4378 29.2077 12.6596 29.2358 12.8154C29.2608 12.971 29.2952 13.3257 29.2671 13.6026C28.9671 16.7651 27.664 24.4395 27.0015 27.9817C26.7233 29.4804 26.1702 29.9829 25.6358 30.032C24.4733 30.1389 23.5921 29.2645 22.4671 28.5273C20.7077 27.3732 19.7139 26.6551 18.0046 25.5292C16.0296 24.2279 17.3108 23.5126 18.4358 22.3439C18.7296 22.0379 23.8483 17.3832 23.9452 16.961C23.9577 16.9082 23.9702 16.7114 23.8514 16.6076C23.7358 16.5035 23.564 16.5392 23.439 16.5673C23.2608 16.6073 20.4514 18.466 15.0014 22.1432C14.2046 22.6914 13.4827 22.9585 12.8327 22.9445C12.1202 22.9292 10.7452 22.5407 9.72332 22.2089C8.47332 21.8017 7.47645 21.5864 7.56395 20.8948C7.6077 20.5348 8.10457 20.1664 9.05145 19.7898Z"
-                      fill="white"/>
-            </g>
-            <defs>
-                <linearGradient id="paint0_linear_7056_4723" x1="2000" y1="0" x2="2000" y2="4000"
-                                gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#2AABEE"/>
-                    <stop offset="1" stop-color="#229ED9"/>
-                </linearGradient>
-                <clipPath id="clip0_7056_4723">
-                    <rect width="40" height="40" fill="white"/>
-                </clipPath>
-            </defs>
-        </svg>
-        <a class="alt" href="https://t.me/YouRich_ecom" target="_blank">
-            Написать в телеграм
-        </a>
-    </div>
-</div>
-
-<div class="block_reviews">
-    <div class="header">
-        <div class="level1">Что говорят о нас</div>
-    </div>
-    <div class="data">
-        <div class="content">
-            <div class="review">
-                <div class="level1">
-                    <img src="/public/images/block_reviews/sellerden_logo-ico.png" alt="" class="logo_client">
-                    <div class="text">
-                        <p class="name">SellerDen</p>
-                        <p class="position">Агрегатор селеров</p>
-                    </div>
-                </div>
-                <div class="level2">
-                    <p class="resume">“Поддержка всегда идет на встречу”</p>
-                    <div class="description">
-                        <p>"Yourich" хотели бы выразить благодарность за работу с Вами и Вашим биддером по платформе OZON.</p>
-                        <p>1. Поддержка всегда идет на встречу и быстро отвечает</p>
-                        <p>2. Сам биддер эффективен в использование по сравнению с другими конкурентами на рынке</p>
-                        <p>3. Приветствуем, что не стоите на месте в действиях и решениях для клиента и с каждым месяцем совершенствуете работу под новые обстоятельства</p>
-                        <p>4. Очень приятное руководство, можно всегда договориться</p>
-                    </div>
-                </div>
-                <div class="level3">
-                    <img src="/public/images/logo_ozon.svg" alt="" class="logo_client me-2">
-                    <img src="/public/images/logo_wb.svg" alt="" class="logo_client">
-                </div>
-            </div>
-            <div class="review">
-                <div class="level1">
-                    <img src="/public/images/block_reviews/leroy.jpg" alt="" class="logo_client">
-                    <div class="text">
-                        <p class="name">Leroy</p>
-                        <p class="position">Компания</p>
-                    </div>
-                </div>
-                <div class="level2">
-                    <p class="resume">“Благодарим за платформу”</p>
-                    <div class="description">
-                        <p>"Yourich" хотели бы выразить наше искреннее восхищение и благодарность за работу с вами и
-                            вашими
-                            биддерами по платформе OZON.</p>
-                        <p>Благодарим вас за вашу платформу и всю проделанную работу.</p>
-                        <p>Ваша компания оказала нам огромную помощь в эффективном управлении нашим бюджетом и принятии
-                            обоснованных решений.</p>
-                        <p>Ваши бидеры по Ozon действительно помогли нам сэкономить наш бюджет, что имеет огромное
-                            значение для
-                            нашей компании.</p>
-                        <p>Мы разработали эффективную стратегию продвижения, которая привела к значительному увеличению
-                            продаж и
-                            улучшению ROI.</p>
-                        <p>Мы с нетерпением ждем дальнейшего развития нашего сотрудничества и успехов вместе с вами.</p>
-                    </div>
-                </div>
-                <div class="level3">
-                    <img src="/public/images/logo_ozon.svg" alt="" class="logo_client me-2">
-                    <img src="/public/images/logo_wb.svg" alt="" class="logo_client">
-                </div>
-            </div>
-            <div class="review">
-                <div class="level1">
-                    <img src="/public/images/block_reviews/negan.jpg" alt="" class="logo_client">
-                    <div class="text">
-                        <p class="name">Negan</p>
-                        <p class="position">Компания</p>
-                    </div>
-                </div>
-                <div class="level2">
-                    <p class="resume">“Действительно то, что я искал”</p>
-                    <div class="description">
-                        <p>Хочу дать краткий отзыв о данном сервисе.</p>
-                        <p>1. Автоматизация рекламных компаний и продвижения Озон - действительно то, что я искал,
-                            сервис со
-                            своей задачей отлично справляется.</p>
-                        <p>2. Поддержка. Бывают случаи, когда не все понятно, ребята оперативно помогают во всех
-                            вопросах.</p>
-                        <p>3. Развитие. Сервис не стоит на месте, движется вперёд, как самостоятельно вводит новые
-                            функции, так
-                            и поспевает за обновлениями маркетплейсов.</p>
-                        <p>4. Цена. На момент написания отзыва цена очень адекватная, рекомендую к использованию.</p>
-                        <p>Удачной работы!</p>
-                    </div>
-                </div>
-                <div class="level3">
-                    <img src="/public/images/logo_ozon.svg" alt="" class="logo_client me-2">
-                    <img src="/public/images/logo_wb.svg" alt="" class="logo_client">
-                </div>
-            </div>
-            <div class="review">
-                <div class="level1">
-                    <img src="/public/images/block_reviews/logo_first_camp.svg" alt="" class="logo_client">
-                    <div class="text">
-                        <p class="name">Медвецкий Никита</p>
-                        <p class="position">Передовое Оборудование и Инструменты</p>
-                    </div>
-                </div>
-                <div class="level2">
-                    <p class="resume">“Программа работает превосходно”</p>
-                    <div class="description">
-                        <p>Программа работает превосходно. Настроил 1 раз и забыл.</p>
-                        <p>Раньше приходилось ежедневно выставлять ставки, что очень неудобно. Теперь ставки проверяются
-                            автоматически каждые 2 часа.
-                            Техническая поддержка оперативно решает все вопросы.</p>
-                        <p>Цена программы полностью оправдывает себя. Товары теперь в топе на 1 странице. Практически
-                            монополия
-                            из моих товаров разных характеристик.</p>
-                    </div>
-                </div>
-                <div class="level3">
-                    <img src="/public/images/logo_ozon.svg" alt="" class="logo_client me-2">
-                    <img src="/public/images/logo_wb.svg" alt="" class="logo_client">
-                </div>
-            </div>
-            <div class="review">
-                <div class="level1">
-                    <img src="/public/images/block_reviews/sec_camp.svg" alt="" class="logo_client">
-                    <div class="text">
-                        <p class="name">Сайтеев Сергей</p>
-                        <p class="position">NICE GADGET</p>
-                    </div>
-                </div>
-                <div class="level2">
-                    <p class="resume">“Отличная поддержка сервиса!”</p>
-                    <div class="description">
-                        <p>Начиная развитие на Ozon заинтересовался внутренней рекламой, понимал что есть или должны
-                            быть
-                            средства автоматизации. Среди нескольких вариантов нашёл YouRich.
-                            Логика работы биддера и функционал по аналитике это самое нужное и важное что есть в
-                            сервисе.</p>
-                        <p>Из плюсов отдельно отмечу поддержку для решения всех вопросов и адекватную тарифную сетку. За
-                            полгода
-                            работы с сервисом YouRich выражаю все команде сервиса благодарность и желаю дальнейшего
-                            развития.</p>
-                    </div>
-                </div>
-                <div class="level3">
-                    <img src="/public/images/logo_ozon.svg" alt="" class="logo_client me-2">
-                    <img src="/public/images/logo_wb.svg" alt="" class="logo_client">
-                </div>
-            </div>
-            <div class="review">
-                <div class="level1">
-                    <img src="/public/images/block_reviews/camp3.svg" alt="" class="logo_client">
-                    <div class="text">
-                        <p class="name">Просянкин Даниил</p>
-                        <p class="position">МП Трафик</p>
-                    </div>
-                </div>
-                <div class="level2">
-                    <p class="resume">“Прекрасный опыт”</p>
-                    <div class="description">
-                        <p>Наша компания уже несколько месяцев сотрудничает с YouRich, это прекрасный опыт, мы очень
-                            довольны
-                            новым партнёром. </p>
-                        <p>С самого начала команда YouRich продемонстрировала гибкость, предоставив нам расширенный
-                            бесплатный
-                            тестовый период, чем показали своё стремление к долгосрочному партнерству.</p>
-                        <p>С тех пор как мы начали работать вместе, мы заметили улучшение показателей всех наших
-                            кабинетов уже в
-                            первый месяц. </p>
-                    </div>
-                </div>
-                <div class="level3">
-                    <img src="/public/images/logo_ozon.svg" alt="" class="logo_client me-2">
-                    <img src="/public/images/logo_wb.svg" alt="" class="logo_client">
-                </div>
-            </div>
-        </div>
-        <div class="control">
-            <div class="prev">
-                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"
-                     style="user-select: none">
-                    <rect width="40" height="40" rx="20" fill="#F5F5F5"/>
-                    <g clip-path="url(#clip0_7056_4584)">
-                        <path d="M19.5925 27.7955L12.4334 20.6364L19.5925 13.4773L21.2402 15.1108L16.915 19.4361H27.0499V21.8366H16.915L21.2402 26.1548L19.5925 27.7955Z"
-                              fill="#272A5E"/>
-                    </g>
-                    <defs>
-                        <clipPath id="clip0_7056_4584">
-                            <rect width="24" height="24" fill="white" transform="translate(8 8)"/>
-                        </clipPath>
-                    </defs>
-                </svg>
-            </div>
-            <div class="page">
-                <p class="current">1</p>
-                <span>/</span>
-                <p class="all">-</p>
-            </div>
-            <div class="next">
-                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"
-                     style="user-select: none">
-                    <rect width="40" height="40" rx="20" fill="#F5F5F5"/>
-                    <g clip-path="url(#clip0_7056_4584)">
-                        <path d="M19.5925 27.7955L12.4334 20.6364L19.5925 13.4773L21.2402 15.1108L16.915 19.4361H27.0499V21.8366H16.915L21.2402 26.1548L19.5925 27.7955Z"
-                              fill="#272A5E"/>
-                    </g>
-                    <defs>
-                        <clipPath id="clip0_7056_4584">
-                            <rect width="24" height="24" fill="white" transform="translate(8 8)"/>
-                        </clipPath>
-                    </defs>
+            <div>
+                <svg class="" width="29" height="29" viewBox="0 0 29 29" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.18629 14.0178H25.8137" stroke="#0F86D9" stroke-width="2.4" stroke-linecap="round"
+                          stroke-linejoin="round"/>
+                    <path d="M15.147 24.6846L25.8136 14.018L15.147 3.35137" stroke="#0F86D9" stroke-width="2.4"
+                          stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
             </div>
         </div>
     </div>
 </div>
 
-<div class="block_stages">
-    <div class="header">
-        <div class="level1">Этапы работ</div>
-        <div class="level2">Первые результаты в течение 5 дней</div>
-    </div>
-    <div class="data">
-        <div class="stage">
-            <div class="level1">
-                <div class="num">
-                    <span>1</span>
-                </div>
-                <div class="line">
-                    <svg width="100%" height="2" viewBox="0 0 1337 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <line x1="-0.00390625" y1="1.00195" x2="1337" y2="1.00195" stroke="#8346FC" stroke-width="6"/>
-                    </svg>
-                </div>
-                <div class="line_rotate hide">
-                    <svg width="2" height="335" viewBox="0 0 2 335" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <line x1="1" y1="335" x2="1" y2="1.7269e-10" stroke="#8346FC" stroke-width="2"/>
-                    </svg>
-                </div>
+<div class="block_key_functions">
+    <div class="data flex w-11/12 mx-auto my-48">
+        <div class="flex flex-col w-1/2">
+            <div class="text-5xl font-bold" style="max-width: 500px; line-height: 56px">Ключевые функции системного
+                интегратора
             </div>
-            <div class="level2">
-                <p class="head">Знакомство <br class="d-xxl-none">с сервисом</p>
-                <p class="text">Покажем личный кабинет, ответим на вопросы и дадим рекомендации по стратегиям
-                    продвижения.</p>
+            <div class="button flex items-center justify-center mt-14">
+                <div>
+                    <a class="mr-4" href="/" target="_self">
+                        Связаться с нами
+                    </a>
+                </div>
+                <div>
+                    <svg width="13" height="13" viewBox="0 0 13 13" fill="none">
+                        <path d="M11.2374 6.7843L6.32343 11.6982M1 6.7843H11.2374H1ZM11.2374 6.7843L6.32343 1.87036L11.2374 6.7843Z"
+                              stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
             </div>
         </div>
-        <div class="stage">
-            <div class="level1">
-                <div class="num">
-                    <span>2</span>
-                </div>
-                <div class="line">
-                    <svg width="100%" height="2" viewBox="0 0 1337 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <line x1="-0.00390625" y1="1.00195" x2="1337" y2="1.00195" stroke="#8346FC" stroke-width="6"/>
-                    </svg>
-                </div>
-                <div class="line_rotate hide">
-                    <svg width="2" height="335" viewBox="0 0 2 335" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <line x1="1" y1="335" x2="1" y2="1.7269e-10" stroke="#8346FC" stroke-width="2"/>
-                    </svg>
-                </div>
-            </div>
-            <div class="level2">
-                <p class="head">Подключение <br class="d-xxl-none">личного кабинета</p>
-                <p class="text">Добавим магазин, настроим выгрузку товаров. Вы обучитесь эффективному управлению
-                    сервисом.</p>
-            </div>
-        </div>
-        <div class="stage">
-            <div class="level1">
-                <div class="num">
-                    <span>3</span>
-                </div>
-                <div class="line">
-                    <svg width="100%" height="2" viewBox="0 0 1337 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <line x1="-0.00390625" y1="1.00195" x2="1337" y2="1.00195" stroke="#8346FC" stroke-width="6"/>
-                    </svg>
+        <div class="flex flex-col w-1/2">
+            <div class="block_row flex items-center h-32 rounded-md">
+                <svg class="mx-4" width="100" height="101" viewBox="0 0 100 101" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1_2715)">
+                        <path d="M39.1059 39.8848C50.7578 39.8848 60.2038 49.3309 60.2038 60.9832C60.2038 72.6356 50.7578 82.0817 39.1059 82.0817C27.4537 82.0817 18.0078 72.6356 18.0078 60.9832C18.0078 49.3309 27.4537 39.8848 39.1059 39.8848Z"
+                              stroke="#0F86D9" stroke-width="4.21965" stroke-linecap="round"/>
+                        <path d="M61.9096 39.8848C73.5617 39.8848 83.0076 49.3309 83.0076 60.9832C83.0076 72.6356 73.5617 82.0817 61.9096 82.0817C50.2575 82.0817 40.8115 72.6356 40.8115 60.9832C40.8115 49.3309 50.2575 39.8848 61.9096 39.8848Z"
+                              stroke="#0F86D9" stroke-width="4.21965" stroke-linecap="round"/>
+                        <path d="M50.5057 18.7861C62.1578 18.7861 71.6038 28.2322 71.6038 39.8846C71.6038 51.5369 62.1578 60.9831 50.5057 60.9831C38.8536 60.9831 29.4077 51.5369 29.4077 39.8846C29.4077 28.2322 38.8536 18.7861 50.5057 18.7861Z"
+                              stroke="#0F86D9" stroke-width="4.21965" stroke-linecap="round"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_1_2715">
+                            <rect width="100" height="100" fill="white" transform="translate(0 0.28418)"/>
+                        </clipPath>
+                    </defs>
+                </svg>
+                <div class="flex flex-col">
+                    <p class="text-xl font-medium">Внедрение информационных систем</p>
+                    <p class="text-base font-normal mt-2">Обмен информацией между подразделениями</p>
                 </div>
             </div>
-            <div class="level2">
-                <p class="head">Сопровождение <br class="d-xxl-none">и разработка</p>
-                <p class="text">Оперативно реагируем на рабочие вопросы, реализуем предложения по дополнительным
-                    инструментам. </p>
+            <div class="block_row flex items-center h-32 rounded-md mt-6">
+                <svg class="mx-4" width="100" height="101" viewBox="0 0 100 101" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path d="M48.1665 35.5503V66.4247M25.0107 66.4247H71.3223M25.0107 66.4247L30.7885 80.8693C31.9607 83.7996 34.7989 85.7212 37.955 85.7212H58.3778C61.5339 85.7212 64.3724 83.7996 65.5445 80.8693L71.3223 66.4247M25.0107 66.4247H75.1816H71.3223M25.0107 66.4247H21.1514M65.406 49.8988C71.1166 46.6018 72.7193 40.842 73.1682 37.7353C73.3584 36.4156 72.6472 35.1834 71.4091 34.6886C68.4942 33.5239 62.7045 32.032 56.9942 35.329C51.2836 38.626 49.6809 44.3858 49.232 47.4925C49.0414 48.8124 49.7526 50.0443 50.9911 50.539C53.906 51.7038 59.6954 53.1958 65.406 49.8988ZM32.6646 31.7557C28.1239 27.215 28.0459 21.3992 28.4026 18.3364C28.5568 17.0119 29.5634 16.0054 30.8878 15.8511C33.9507 15.4944 39.7664 15.5724 44.3072 20.1131C48.848 24.6538 48.926 30.4696 48.569 33.5324C48.415 34.8569 47.4085 35.8634 46.084 36.0177C43.0213 36.3744 37.2053 36.2964 32.6646 31.7557Z"
+                          stroke="#0F86D9" stroke-width="4.63116" stroke-linecap="round"/>
+                </svg>
+                <div class="flex flex-col">
+                    <p class="text-xl font-medium">Внедрение информационных систем</p>
+                    <p class="text-base font-normal mt-2">Обмен информацией между подразделениями</p>
+                </div>
+            </div>
+            <div class="block_row flex items-center h-32 rounded-md mt-6">
+                <svg class="mx-4" width="100" height="101" viewBox="0 0 100 101" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path d="M74.375 42.1418H58.125C53.6376 42.1418 50 38.5042 50 34.0168V17.7668M37.8125 70.5793V62.4543M45.9375 70.5793V58.3918M54.0625 70.5793V66.5168M62.1875 70.5793V54.3293M74.375 41.4448V74.6418C74.375 79.1293 70.7374 82.7668 66.25 82.7668H33.75C29.2627 82.7668 25.625 79.1293 25.625 74.6418V25.8918C25.625 21.4045 29.2627 17.7668 33.75 17.7668H50.6971C52.8519 17.7668 54.9185 18.6229 56.4423 20.1466L71.9952 35.6996C73.519 37.2233 74.375 39.2899 74.375 41.4448Z"
+                          stroke="#0F86D9" stroke-width="4.875" stroke-linecap="round"/>
+                </svg>
+                <div class="flex flex-col">
+                    <p class="text-xl font-medium">Внедрение информационных систем</p>
+                    <p class="text-base font-normal mt-2">Обмен информацией между подразделениями</p>
+                </div>
             </div>
         </div>
     </div>

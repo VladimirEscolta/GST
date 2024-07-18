@@ -170,13 +170,13 @@
 
 </header>
 
-<!--<div class="mt-5">-->
-<!---->
-<!--    <main>-->
-<!--        --><?php //echo $content; ?>
-<!--    </main>-->
-<!---->
-<!--</div>-->
+<div class="">
+
+    <main>
+        <?php echo $content; ?>
+    </main>
+
+</div>
 
 <footer id="footerHome" class="w-full">
     <div class="level_1 bg-white">
@@ -286,126 +286,6 @@
                               fill="white"/>
                     </svg>
                 </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="block_form">
-        <div class="content d-flex flex-row">
-            <div class="one_column d-flex flex-column w-50">
-                <div class="d-flex header">Начните больше зарабатывать уже сегодня</div>
-                <div class="d-flex text">Приглашаем протестировать сервис – бесплатно на 5 дней. Вы сможете поднять
-                    товары в
-                    выдаче,
-                    улучшить показатели, изучить нишу и конкурентов.
-                </div>
-            </div>
-            <div class="two_column d-flex flex-column w-50">
-
-                <form action='/' method='post' enctype='multipart/form-data' class="inputs">
-                    <div class="d-flex flex-column mb-3">
-                        <input class="input_name form-control" type="text" name='name' placeholder="Имя*"
-                               id="input_name" required>
-                    </div>
-                    <div class="d-grid alt" style="grid-template-columns: 1fr 1fr; column-gap: 14px">
-                        <input class="input_phone form-control w-100" type="tel" name='phone' placeholder="Телефон*"
-                               id="input_phone" required>
-                        <input class="form-control w-100" type="email" name='mail' placeholder="Электронная почта"
-                               id="input_mail">
-                    </div>
-                    <button type="submit" class="buttonpromo check-submit my-4" id="submit">
-                        Отправить
-                    </button>
-                </form>
-                <p>Нажимая на кнопку, я соглашаюсь на обработку
-                    <a href="https://yourich.ru/politics/personal-data" target="_blank">персональных данных</a> и
-                    <a href="https://yourich.ru/politics/offer" target="_blank">с правилами пользования сервисом</a>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="contacts">
-        <div class="column">
-            <div class="level1">
-                <div class="tel">
-                    <a class="m-0 text-decoration-none" href="tel:+78005502533">
-                        <nobr class="pe-2">8 800 550-25-33</nobr>
-                    </a>
-                    <span class="time m-0">пн-пт 07:00-15:30 (мск)</span>
-                </div>
-            </div>
-            <div class="level2">
-                <div class="image">
-                    <img src="/public/images/image_footer.png" alt="">
-                    <p>Есть вопрос?</p>
-                </div>
-                <p>Напишите
-                    <a class="" href="https://t.me/YouRich_ecom" target="_blank">Егору Давыдову</a>
-                    – ответственному за сопровождение клиентов
-                </p>
-            </div>
-        </div>
-        <div class="column">
-            <div class="level1 alt">
-                <p class="text">г. Пермь, ул. Хрустальная, д.7, офис 303</p>
-                <p class="text alt hide">
-                    <a href="mailto:info@yourich.ru">info@yourich.ru</a>
-                </p>
-                <div class="icons">
-                    <div class="ico">
-                        <a class="text-decoration-none" href="https://vk.com/yourich_ecommerce" target="_blank">
-                            <img src="/public/images/footer/icons_vk.png" alt="">
-                        </a>
-                    </div>
-                    <div class="ico">
-                        <a class="text-decoration-none" href="https://www.youtube.com/channel/UC0zQzQHVm4uIlHC9blcvvEA"
-                           target="_blank">
-                            <img src="/public/images/footer/icons_utube.png" alt="">
-                        </a>
-                    </div>
-                    <div class="ico">
-                        <a class="text-decoration-none" href="https://t.me/yourich_ecommerce" target="_blank">
-                            <img src="/public/images/footer/icons_telega.png" alt="">
-                        </a>
-                    </div>
-                    <div class="ico">
-                        <a class="text-decoration-none" href="https://rutube.ru/channel/35955406/" target="_blank">
-                            <img src="/public/images/footer/icons_rutube.png" alt="">
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="level2 alt">
-                <a href="mailto:info@yourich.ru">info@yourich.ru</a>
-            </div>
-        </div>
-    </div>
-    <hr>
-    <div class="info">
-        <div class="column">
-            <div class="level1">
-                <a class="text-decoration-none me-2" href="https://yourich.ru/politics/personal-data" target="_blank">Политика
-                    конфиденциальности</a>
-                <a class="text-decoration-none me-2" href="https://yourich.ru/politics/offer" target="_blank">Публичная
-                    оферта</a>
-                <a class="text-decoration-none" href="https://yourich.ru/politics/termsuse" target="_blank">Пользовательское
-                    соглашение</a>
-            </div>
-            <div class="level2">
-                <p>
-                    Мы используем
-                    <a class="" href="https://yourich.ru/politics/agreement-cookie" target="_blank">файлы
-                        cookie</a>
-                    для персонализации сервисов и повышения удобства пользования сайтом. Если вы не согласны на их
-                    использование, поменяйте настройки браузера.
-                </p>
-            </div>
-        </div>
-        <div class="column">
-            <div class="level1 alt">
-                <img src="/public/images/logo_h50.png" height="42px" alt="MDB Logo" loading="lazy">
-                <p class="ms-2">© 2021 – 2024 ООО «ЮРИЧ ЭКОМ». Все права защищены</p>
             </div>
         </div>
     </div>
