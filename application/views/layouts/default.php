@@ -229,7 +229,7 @@
     <div class="level_2">
         <div class="block_info text-white mx-auto w-11/12">
             <div class="flex text-base mt-24">
-                <div class="flex w-1/5">
+                <div class="flex w-1/3">
                     <svg width="60" height="35" viewBox="0 0 60 35" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0.999999 34.5369C0.447714 34.5369 0 34.0892 0 33.5369V1.46387C0 0.911582 0.447715 0.463867 1 0.463867H59C59.5523 0.463867 60 0.911582 60 1.46387V33.5369C60 34.0892 59.5523 34.5369 59 34.5369H0.999999Z"
                               fill="#0F86D9"/>
@@ -242,12 +242,12 @@
                     </svg>
                     <p class="text-sm ps-4 w-40">Глобальные сетевые технологии</p>
                 </div>
-                <div class="flex flex-col w-2/5">
+                <div class="flex flex-col w-1/3">
                     <a class="" href="/about">О компании</a>
                     <a class="mt-5" href="/products" target="_blank">Услуги и продукты</a>
                     <a class="mt-5" href="/contacts" target="_blank">Контакты</a>
                 </div>
-                <div class="flex flex-col w-2/5">
+                <div class="flex flex-col w-1/3">
                     <div class="font-semibold">Подписка</div>
                     <div class="mt-5">Будьте в курсе наших последних новостей</div>
                     <div class="flex mt-5">
