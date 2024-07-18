@@ -1,3 +1,5 @@
+@import "variables";
+
 @font-face {
   font-family: "Inter";
   src: url("/public/fonts/Inter/static/Inter-Regular.ttf");
@@ -23,25 +25,12 @@
 }
 
 
-$color-background: white;
-$font-main: normal 18px 'Inter', sans-serif;
-$color-text: #0B0A33;
-$color-company-main: #0F86D9;
-$color-footer: #113E7C;
-
-
-$color-background-alt: rgba(153, 153, 255, 0.1);
-$color-company-main-hover: #5E34B2;
-$color-company-second: #9999FF;
-
-
 body {
   font: $font-main;
   background-color: $color-background;
   margin: 0;
   padding: 0;
 }
-
 
 .buttonpromo {
   width: 187px;
@@ -90,11 +79,33 @@ footer {
   flex-direction: column;
   color: $color-text;
 
-  .block_map {
-    .map {
-      width: calc(100% - 400px);
+  .level_1 {
+    .block_map {
+      .map {
+        width: calc(100% - 400px);
+      }
     }
   }
+
+  .level_2 {
+    background-color: $color-footer;
+
+    .block_info {
+      form{
+        input{
+          background-color: #FFFFFF33;
+          padding-left: 20px;
+          box-shadow: none;
+        }
+      }
+    }
+    hr{
+      border-color: #FFFFFF33;
+    }
+  }
+
+
+
 
   .block_form {
     //border: 1px solid #E5E5E5;
