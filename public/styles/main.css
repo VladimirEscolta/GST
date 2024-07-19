@@ -30,6 +30,15 @@
   color: white;
 }
 
+.block_services {
+  background: linear-gradient(305.94deg, #0F86D9 33.75%, #113E7C 90.8%);
+}
+.block_services .data .service {
+  background-image: url("../images/main/block_services1.png");
+  background-size: cover;
+  border: 1px solid #F4F4F4;
+}
+
 .block_adv1 {
   background: linear-gradient(90deg, #0F86D9 0%, #113E7C 100%);
 }

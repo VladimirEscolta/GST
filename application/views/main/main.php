@@ -32,6 +32,17 @@
     </div>
 </div>
 
+<div class="block_services">
+    <div class="data w-10/12 mx-auto py-24 flex flex-col justify-between text-white">
+        <p class="text-5xl font-bold">Услуги</p>
+        <div class="mt-14 grid-cols-3 gap-8">
+           <div class="service relative" style="height: 600px">
+               <img class="absolute bottom-0 left-0 w-full" src="/public/images/main/block_services_rectangle.png" width="" alt="services_rectangle">
+           </div>
+        </div>
+    </div>
+</div>
+
 <div class="block_adv1 relative h-96 flex items-center justify-between mx-auto">
     <img class="absolute top-0 left-0 right-0 mx-auto" src="/public/images/main/adv1_long.png" width="" alt="MDB Logo">
     <img class="absolute bottom-0 left-0" src="/public/images/main/adv1.png" width="" alt="MDB Logo">
