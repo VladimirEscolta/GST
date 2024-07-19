@@ -23,10 +23,17 @@
 
   .data {
     .service {
-      background-image: url("../images/main/block_services1.png");
       background-size: cover;
-      //background-repeat: no-repeat;
       border: 1px solid #F4F4F4;
+      &.one{
+        background-image: url("../images/main/block_services1.png");
+      }
+      &.two{
+        background-image: url("../images/main/block_services2.png");
+      }
+      &.three{
+        background-image: url("../images/main/block_services3.png");
+      }
     }
   }
 }

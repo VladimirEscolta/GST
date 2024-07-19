@@ -34,9 +34,17 @@
   background: linear-gradient(305.94deg, #0F86D9 33.75%, #113E7C 90.8%);
 }
 .block_services .data .service {
-  background-image: url("../images/main/block_services1.png");
   background-size: cover;
   border: 1px solid #F4F4F4;
+}
+.block_services .data .service.one {
+  background-image: url("../images/main/block_services1.png");
+}
+.block_services .data .service.two {
+  background-image: url("../images/main/block_services2.png");
+}
+.block_services .data .service.three {
+  background-image: url("../images/main/block_services3.png");
 }
 
 .block_adv1 {
