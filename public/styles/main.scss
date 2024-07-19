@@ -1,5 +1,23 @@
 @import "variables";
 
+.block_first {
+  .data {
+    .button {
+      background-color: $color-company-main;
+      width: 270px;
+      height: 70px;
+      border-radius: 3px;
+
+      a {
+        font-weight: 700;
+        font-size: 18px;
+        color: white;
+      }
+    }
+
+  }
+}
+
 .block_adv1 {
   background: linear-gradient(90deg, #0F86D9 0%, #113E7C 100%);
 
@@ -80,5 +98,4 @@
 
 .block_expertise {
   background: linear-gradient(180deg, #0F86D9 0%, #006EBB 100%);
-;
 }

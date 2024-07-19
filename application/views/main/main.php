@@ -1,3 +1,37 @@
+<div class="block_first">
+    <div class="data flex relative flex-col w-10/12 mx-auto py-24">
+        <img class="absolute top-28 right-0" src="/public/images/main/block_first_rectangle.png" width="" alt="first_rectangle">
+        <div>
+            <p class="flex p-2.5 w-fit font-bold bg-[#0F86D91A]">Многопрофильный системный интегратор и дистрибутор</p>
+            <p class="mt-6 font-bold" style="font-size: 64px; line-height: 70px; max-width: 420px">Глобальные Сетевые Технологии</p>
+            <p class="mt-6 text-xl font-medium leading-8" style="max-width: 400px">Эксклюзивный партнер “Интерпроком” в холдинге ПАО Газпром</p>
+            <div class="button flex items-center justify-center mt-14">
+                <div>
+                    <a class="mr-4" href="/" target="_self">
+                        Обсудить проект
+                    </a>
+                </div>
+                <div>
+                    <svg width="13" height="13" viewBox="0 0 13 13" fill="none">
+                        <path d="M11.2374 6.7843L6.32343 11.6982M1 6.7843H11.2374H1ZM11.2374 6.7843L6.32343 1.87036L11.2374 6.7843Z"
+                              stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="flex mt-14">
+            <img class="" src="/public/images/main/block_first1.png" width="" alt="first1">
+            <img class="" src="/public/images/main/block_first2.png" width="" alt="first2">
+        </div>
+        <div class="flex mt-6 items-center">
+            <img class="h-10 mr-6" src="/public/images/main/block_first3.png" width="" alt="first3">
+            <img class="h-10 mr-6" src="/public/images/main/block_first4.png" width="" alt="first4">
+            <img class="h-10 mr-6" src="/public/images/main/block_first5.png" width="" alt="first5">
+            <img class="" src="/public/images/main/block_first6.png" width="" alt="first6">
+        </div>
+    </div>
+</div>
+
 <div class="block_adv1 relative h-96 flex items-center justify-between mx-auto">
     <img class="absolute top-0 left-0 right-0 mx-auto" src="/public/images/main/adv1_long.png" width="" alt="MDB Logo">
     <img class="absolute bottom-0 left-0" src="/public/images/main/adv1.png" width="" alt="MDB Logo">

@@ -18,6 +18,18 @@
   src: url("/public/fonts/Inter/static/Inter-Bold.ttf");
   font-weight: 700;
 }
+.block_first .data .button {
+  background-color: #0F86D9;
+  width: 270px;
+  height: 70px;
+  border-radius: 3px;
+}
+.block_first .data .button a {
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+}
+
 .block_adv1 {
   background: linear-gradient(90deg, #0F86D9 0%, #113E7C 100%);
 }
