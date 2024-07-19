@@ -47,6 +47,7 @@
       label {
         font-size: 15px;
       }
+
       input {
         background-color: white;
         color: $color-text;
@@ -58,6 +59,7 @@
         box-shadow: none;
         outline: none;
       }
+
       .button {
         background-color: $color-company-main;
         width: 270px;
@@ -74,4 +76,9 @@
     }
   }
 
+}
+
+.block_expertise {
+  background: linear-gradient(180deg, #0F86D9 0%, #006EBB 100%);
+;
 }
