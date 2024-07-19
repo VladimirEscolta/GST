@@ -24,7 +24,7 @@
 </div>
 
 <div class="block_key_functions">
-    <div class="data flex w-11/12 mx-auto my-48">
+    <div class="data flex w-11/12 mx-auto py-24">
         <div class="flex flex-col w-1/2">
             <div class="text-5xl font-bold" style="max-width: 500px; line-height: 56px">Ключевые функции системного
                 интегратора
@@ -88,6 +88,47 @@
                     <p class="text-base font-normal mt-2">Обмен информацией между подразделениями</p>
                 </div>
             </div>
+        </div>
+    </div>
+</div>
+
+<div class="block_callback relative">
+    <img class="absolute top-0 w-full h-full" src="/public/images/main/block_callback_rectangle.png" width="" alt="callback_rectangle">
+    <div class="data relative text-white w-11/12 mx-auto py-24 flex justify-between">
+        <div class="flex flex-col">
+            <div class="text-5xl font-bold">Обратный звонок</div>
+            <div class="mt-14">
+                <form action='/' method='post' enctype='multipart/form-data' class="inputs">
+                    <div class="flex flex-col">
+                        <label for="input_name">Ваше имя</label>
+                        <input class="mt-2 form-control buttonpromo " type="text" name='name'
+                               placeholder="Введите ваше имя"
+                               id="input_name">
+                    </div>
+                    <div class="mt-5 flex flex-col">
+                        <label for="input_phone">Контактный телефон</label>
+                        <input class="mt-2 form-control buttonpromo" type="tel" name='phone'
+                               placeholder="+7(___)___-__-__"
+                               id="input_phone">
+                    </div>
+                    <button type="submit" class="button flex items-center justify-center mt-14">
+                        <div>
+                            <a class="mr-4" href="/" target="_self">
+                                Отправить запрос
+                            </a>
+                        </div>
+                        <div>
+                            <svg width="13" height="13" viewBox="0 0 13 13" fill="none">
+                                <path d="M11.2374 6.7843L6.32343 11.6982M1 6.7843H11.2374H1ZM11.2374 6.7843L6.32343 1.87036L11.2374 6.7843Z"
+                                      stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="flex flex-col">
+            <img class="" src="/public/images/main/block_callback.png" width="" alt="callback">
         </div>
     </div>
 </div>

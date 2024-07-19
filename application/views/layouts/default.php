@@ -180,7 +180,7 @@
 
 <footer id="footerHome" class="w-full">
     <div class="level_1 bg-white">
-        <div class="block_map w-11/12 mx-auto my-24">
+        <div class="block_map w-11/12 mx-auto py-24">
             <div class="flex flex-col">
                 <p class="text-5xl font-bold">Свяжитесь с нами</p>
                 <p class="mt-5">Мы поможем вам с потребностями в системной интеграции.</p>
@@ -228,7 +228,7 @@
     </div>
     <div class="level_2">
         <div class="block_info text-white mx-auto w-11/12">
-            <div class="flex text-base mt-24">
+            <div class="flex text-base pt-24">
                 <div class="flex w-1/3">
                     <svg width="60" height="35" viewBox="0 0 60 35" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0.999999 34.5369C0.447714 34.5369 0 34.0892 0 33.5369V1.46387C0 0.911582 0.447715 0.463867 1 0.463867H59C59.5523 0.463867 60 0.911582 60 1.46387V33.5369C60 34.0892 59.5523 34.5369 59 34.5369H0.999999Z"

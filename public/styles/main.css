@@ -46,4 +46,34 @@
   border: 1px solid rgba(11, 10, 51, 0.1019607843);
 }
 
+.block_callback {
+  background: #113E7C;
+}
+.block_callback .data form label {
+  font-size: 15px;
+}
+.block_callback .data form input {
+  background-color: white;
+  color: #0B0A33;
+  font-size: 16px;
+  height: 48px;
+  width: 100%;
+  max-width: 500px;
+  padding-left: 20px;
+  box-shadow: none;
+  outline: none;
+}
+.block_callback .data form .button {
+  background-color: #0F86D9;
+  width: 270px;
+  height: 70px;
+  border-radius: 3px;
+  border: 1px solid white;
+}
+.block_callback .data form .button a {
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+}
+
 /*# sourceMappingURL=main.css.map */
