@@ -94,10 +94,71 @@
     </div>
 </div>
 
+<div class="block_products">
+    <div class="data flex flex-col w-10/12 mx-auto py-24">
+        <p class="text-5xl font-bold">Продукты</p>
+        <div class="flex my-16 items-center justify-between">
+            <div class="flex flex-col">
+                <p class="flex p-2.5 w-fit font-bold bg-[#0F86D91A]">Эксклюзивный партнер Интерпроком в холдинге ПАО
+                    "Газпром"</p>
+                <p class="mt-8 font-bold text-4xl" style="line-height: 43px; max-width: 530px">Ведение проектов ТоИР на
+                    платформе Аксиома</p>
+                <p class="mt-8 text-xl font-medium leading-8" style="max-width: 530px">«АКСИОМА» решение уровня ERP для
+                    управления корпоративными активами, недвижимостью и ТОиР</p>
+                <a class="mt-8 flex items-center" href="/" target="_self">
+                    <svg class="mr-4 -rotate-45" width="13" height="13" viewBox="0 0 13 13" fill="none">
+                        <path d="M11.2374 6.7843L6.32343 11.6982M1 6.7843H11.2374H1ZM11.2374 6.7843L6.32343 1.87036L11.2374 6.7843Z"
+                              stroke="#0F86D9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <p class="font-medium text-[#0F86D9]">Аксиома: ремонты</p>
+                </a>
+                <a class="mt-6 flex items-center" href="/" target="_self">
+                    <svg class="mr-4 -rotate-45" width="13" height="13" viewBox="0 0 13 13" fill="none">
+                        <path d="M11.2374 6.7843L6.32343 11.6982M1 6.7843H11.2374H1ZM11.2374 6.7843L6.32343 1.87036L11.2374 6.7843Z"
+                              stroke="#0F86D9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <p class="font-medium text-[#0F86D9]">Аксиома: имущество</p>
+                </a>
+                <a class="mt-6 flex items-center" href="/" target="_self">
+                    <svg class="mr-4 -rotate-45" width="13" height="13" viewBox="0 0 13 13" fill="none">
+                        <path d="M11.2374 6.7843L6.32343 11.6982M1 6.7843H11.2374H1ZM11.2374 6.7843L6.32343 1.87036L11.2374 6.7843Z"
+                              stroke="#0F86D9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <p class="font-medium text-[#0F86D9]">Аксиома: сервис</p>
+                </a>
+                <a class="mt-6 flex items-center" href="/" target="_self">
+                    <svg class="mr-4 -rotate-45" width="13" height="13" viewBox="0 0 13 13" fill="none">
+                        <path d="M11.2374 6.7843L6.32343 11.6982M1 6.7843H11.2374H1ZM11.2374 6.7843L6.32343 1.87036L11.2374 6.7843Z"
+                              stroke="#0F86D9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <p class="font-medium text-[#0F86D9]">Аксиома: нефтегаз</p>
+                </a>
+                <a class="mt-6 flex items-center" href="/" target="_self">
+                    <svg class="mr-4 -rotate-45" width="13" height="13" viewBox="0 0 13 13" fill="none">
+                        <path d="M11.2374 6.7843L6.32343 11.6982M1 6.7843H11.2374H1ZM11.2374 6.7843L6.32343 1.87036L11.2374 6.7843Z"
+                              stroke="#0F86D9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <p class="font-medium text-[#0F86D9]">Аксиома: электроэнергетика</p>
+                </a>
+                <a class="mt-8 flex items-center bg-[#0F86D9] h-[70px] w-80 justify-center" style="border-radius: 3px" href="/" target="_self">
+                    <p class="mr-4 font-bold text-white">Подробнее о продуктах</p>
+                    <svg width="13" height="13" viewBox="0 0 13 13" fill="none">
+                        <path d="M11.2374 6.7843L6.32343 11.6982M1 6.7843H11.2374H1ZM11.2374 6.7843L6.32343 1.87036L11.2374 6.7843Z"
+                              stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="flex flex-col">
+                <img class="" src="/public/images/main/block_products1.png" width="" alt="products1">
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="block_adv1 relative h-96 flex items-center justify-between mx-auto">
-    <img class="absolute top-0 left-0 right-0 mx-auto" src="/public/images/main/adv1_long.png" width="" alt="MDB Logo">
-    <img class="absolute bottom-0 left-0" src="/public/images/main/adv1.png" width="" alt="MDB Logo">
-    <img class="absolute bottom-0 right-0" src="/public/images/main/adv1.png" width="" alt="MDB Logo">
+    <img class="absolute top-0 left-0 right-0 mx-auto" src="/public/images/main/adv1_long.png" width="" alt="adv1_long">
+    <img class="absolute bottom-0 left-0" src="/public/images/main/adv1.png" width="" alt="adv1">
+    <img class="absolute bottom-0 right-0" src="/public/images/main/adv1.png" width="" alt="adv1">
     <div class="data w-10/12 mx-auto my-24 flex justify-between items-center">
         <div class="text-5xl font-bold text-white">Готовы обсудить проект?</div>
         <div class="button flex bg-white rounded-2xl items-center justify-center">
