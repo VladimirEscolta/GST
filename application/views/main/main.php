@@ -93,7 +93,8 @@
 </div>
 
 <div class="block_callback relative">
-    <img class="absolute top-0 w-full h-full" src="/public/images/main/block_callback_rectangle.png" width="" alt="callback_rectangle">
+    <img class="absolute top-0 w-full h-full" src="/public/images/main/block_callback_rectangle.png" width=""
+         alt="callback_rectangle">
     <div class="data relative text-white w-11/12 mx-auto py-24 flex justify-between">
         <div class="flex flex-col">
             <div class="text-5xl font-bold">Обратный звонок</div>
@@ -129,6 +130,35 @@
         </div>
         <div class="flex flex-col">
             <img class="" src="/public/images/main/block_callback.png" width="" alt="callback">
+        </div>
+    </div>
+</div>
+
+<div class="block_advantages">
+    <div class="data bg-white w-11/12 mx-auto py-24 flex justify-between">
+        <div class="flex flex-col w-1/2">
+            <p class="text-5xl font-bold">Наши преимущества</p>
+            <p class="text-xl font-normal mt-14" style="max-width: 540px">В своей работе мы используем комплексный подход, сочетая IT-решения и бизнес-задачи заказчика.
+                Это позволяет нам создавать проекты, которые отвечают современным требованиям и обеспечивают эффективное
+                решение задач наших клиентов.</p>
+        </div>
+        <div class="flex flex-col w-1/2">
+            <div class="flex">
+                <div class="flex flex-col w-1/2">
+                    <svg width="75" height="75" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M37.4999 48.4156C24.2855 48.4156 13.573 38.071 13.573 25.3103C13.573 12.5497 24.2855 2.20508 37.4999 2.20508C50.7144 2.20508 61.4269 12.5497 61.4269 25.3103C61.4269 38.071 50.7144 48.4156 37.4999 48.4156ZM37.4999 48.4156L52.0232 70.8589C53.6558 73.3824 57.6975 72.1024 57.4654 69.1353L56.8776 61.6226C56.6985 59.3328 59.2551 57.7902 61.3076 58.9493L68.0427 62.7528C70.7022 64.255 73.6656 61.3084 72.0325 58.7853L58.0675 37.1237M37.4999 48.4156L22.977 70.8589C21.3442 73.3824 17.3028 72.1024 17.5348 69.1353L18.1224 61.6226C18.3015 59.3328 15.7451 57.7902 13.6925 58.9493L6.95747 62.7528C4.29766 64.255 1.33458 61.3084 2.9674 58.7853L16.9326 37.1237M45.4755 25.3103C45.4755 29.564 41.9048 33.0121 37.4999 33.0121C33.0953 33.0121 29.5243 29.564 29.5243 25.3103C29.5243 21.0568 33.0953 17.6086 37.4999 17.6086C41.9048 17.6086 45.4755 21.0568 45.4755 25.3103Z" stroke="#0F86D9" stroke-width="4" stroke-linecap="round"/>
+                    </svg>
+                    <p class="mt-6 text-xl text-base">Надежность и качество услуг</p>
+                    <p class="mt-2 w-52 text-base font-normal">Более 20 лет успешно работаем на рынке</p>
+                </div>
+                <div class="flex flex-col w-1/2">
+                    <svg width="75" height="76" viewBox="0 0 75 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M70.8775 34.1165C73.9488 31.8868 72.369 27.0358 68.5715 27.0358H53.6531C50.2308 27.0358 47.2038 24.8202 46.1741 21.5617L41.2394 5.94213C40.0867 2.29273 34.9136 2.29273 33.7604 5.94213L28.8259 21.5617C27.7965 24.8202 24.7694 27.0358 21.347 27.0358H6.42858C2.63092 27.0358 1.05109 31.8868 4.12265 34.1165L17.4094 43.7615C20.2808 45.8456 21.3913 49.5961 20.1169 52.9039L14.3529 67.8649C12.9506 71.505 17.1597 74.7298 20.3189 72.4359L32.8876 63.3103C35.6374 61.3135 39.3628 61.3135 42.1127 63.3103L54.6812 72.4359C57.8404 74.7298 62.0496 71.505 60.6471 67.8649L54.8831 52.9039C53.6088 49.5961 54.7192 45.8456 57.5906 43.7615L70.8775 34.1165Z" stroke="#0F86D9" stroke-width="4.70526" stroke-linecap="round"/>
+                    </svg>
+                    <p class="mt-6 text-xl text-base">Персональный подход</p>
+                    <p class="mt-2 w-52 text-base font-normal">Индивидуальный подход к каждому клиенту</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
