@@ -2,36 +2,32 @@
 
 .block_first {
   .data {
-    .button {
+    a {
       background-color: $color-company-main;
       width: 270px;
       height: 70px;
       border-radius: 3px;
-
-      a {
-        font-weight: 700;
-        font-size: 18px;
-        color: white;
-      }
+      font-weight: 700;
     }
-
   }
 }
 
 .block_services {
-  background: linear-gradient(305.94deg, #0F86D9 33.75%, #113E7C 90.8%);
 
   .data {
     .service {
       background-size: cover;
       border: 1px solid #F4F4F4;
-      &.one{
+
+      &.one {
         background-image: url("../images/main/block_services1.png");
       }
-      &.two{
+
+      &.two {
         background-image: url("../images/main/block_services2.png");
       }
-      &.three{
+
+      &.three {
         background-image: url("../images/main/block_services3.png");
       }
     }
@@ -39,7 +35,6 @@
 }
 
 .block_adv1 {
-  background: linear-gradient(90deg, #0F86D9 0%, #113E7C 100%);
 
   .data {
     .button {
@@ -114,8 +109,4 @@
     }
   }
 
-}
-
-.block_expertise {
-  background: linear-gradient(180deg, #0F86D9 0%, #006EBB 100%);
 }

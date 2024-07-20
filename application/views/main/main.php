@@ -8,19 +8,13 @@
                 Технологии</p>
             <p class="mt-6 text-xl font-medium leading-8" style="max-width: 400px">Эксклюзивный партнер “Интерпроком” в
                 холдинге ПАО Газпром</p>
-            <div class="button flex items-center justify-center mt-14">
-                <div>
-                    <a class="mr-4" href="/" target="_self">
-                        Обсудить проект
-                    </a>
-                </div>
-                <div>
-                    <svg width="13" height="13" viewBox="0 0 13 13" fill="none">
-                        <path d="M11.2374 6.7843L6.32343 11.6982M1 6.7843H11.2374H1ZM11.2374 6.7843L6.32343 1.87036L11.2374 6.7843Z"
-                              stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </div>
-            </div>
+            <a class="mt-6 flex items-center justify-center mt-14" href="/" target="_self">
+                <p class="mr-4 font-bold text-white">Обсудить проект</p>
+                <svg width="13" height="13" viewBox="0 0 13 13" fill="none">
+                    <path d="M11.2374 6.7843L6.32343 11.6982M1 6.7843H11.2374H1ZM11.2374 6.7843L6.32343 1.87036L11.2374 6.7843Z"
+                          stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a>
         </div>
         <div class="flex mt-14">
             <img class="" src="/public/images/main/block_first1.png" width="" alt="first1">
@@ -35,7 +29,8 @@
     </div>
 </div>
 
-<div class="block_services">
+<div class="block_services"
+     style="background: linear-gradient(305.94deg, #0F86D9 33.75%, #113E7C 90.8%)">
     <div class="data w-10/12 mx-auto py-24 flex flex-col justify-between">
         <p class="text-5xl font-bold text-white">Услуги</p>
         <div class="mt-14 grid grid-cols-3 gap-12">
@@ -225,27 +220,24 @@
     </div>
 </div>
 
-<div class="block_adv1 relative h-96 flex items-center justify-between mx-auto">
+<div class="block_adv1 relative h-96 flex items-center justify-between mx-auto"
+     style="background: linear-gradient(90deg, #0F86D9 0%, #113E7C 100%)">
     <img class="absolute top-0 left-0 right-0 mx-auto" src="/public/images/main/adv1_long.png" width="" alt="adv1_long">
     <img class="absolute bottom-0 left-0" src="/public/images/main/adv1.png" width="" alt="adv1">
     <img class="absolute bottom-0 right-0" src="/public/images/main/adv1.png" width="" alt="adv1">
     <div class="data w-10/12 mx-auto my-24 flex justify-between items-center">
         <div class="text-5xl font-bold text-white">Готовы обсудить проект?</div>
         <div class="button flex bg-white rounded-2xl items-center justify-center">
-            <div>
-                <a class="mr-4" href="/" target="_self">
-                    Написать нам
-                </a>
-            </div>
-            <div>
-                <svg class="" width="29" height="29" viewBox="0 0 29 29" fill="none"
-                     xmlns="http://www.w3.org/2000/svg">
-                    <path d="M3.18629 14.0178H25.8137" stroke="#0F86D9" stroke-width="2.4" stroke-linecap="round"
-                          stroke-linejoin="round"/>
-                    <path d="M15.147 24.6846L25.8136 14.018L15.147 3.35137" stroke="#0F86D9" stroke-width="2.4"
-                          stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-            </div>
+            <a class="mr-4" href="/" target="_self">
+                Написать нам
+            </a>
+            <svg class="" width="29" height="29" viewBox="0 0 29 29" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.18629 14.0178H25.8137" stroke="#0F86D9" stroke-width="2.4" stroke-linecap="round"
+                      stroke-linejoin="round"/>
+                <path d="M15.147 24.6846L25.8136 14.018L15.147 3.35137" stroke="#0F86D9" stroke-width="2.4"
+                      stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
         </div>
     </div>
 </div>
@@ -395,7 +387,7 @@
     </div>
 </div>
 
-<div class="block_expertise">
+<div class="block_expertise" style="background: linear-gradient(180deg, #0F86D9 0%, #006EBB 100%)">
     <div class="data w-10/12 mx-auto py-24 flex flex-col justify-between text-white">
         <p class="text-5xl font-bold">Наша экспертиза</p>
         <div class="mt-14 grid grid-cols-3 gap-5">

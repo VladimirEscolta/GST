@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Inter";
+  src: url("/public/fonts/Inter/static/Inter-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/public/fonts/Inter/static/Inter-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/public/fonts/Inter/static/Inter-SemiBold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/public/fonts/Inter/static/Inter-Bold.ttf");
+  font-weight: 700;
+}
+.block_company .data .button {
+  background-color: #0F86D9;
+  width: 270px;
+  height: 70px;
+  border-radius: 3px;
+  font-weight: 700;
+}
+
+.block_specialization .data .button {
+  background-color: #0F86D9;
+  width: 270px;
+  height: 70px;
+  border-radius: 3px;
+  font-weight: 700;
+}
+
+.block_adv1 .data .button {
+  width: 330px;
+  height: 110px;
+}
+.block_adv1 .data .button a {
+  font-weight: 700;
+  font-size: 22px;
+  color: #0F86D9;
+}
+
+/*# sourceMappingURL=company.css.map */

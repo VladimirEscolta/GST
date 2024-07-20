@@ -8,7 +8,7 @@ class MainController extends Controller
 {
     public function mainAction()
     {
-        if (!empty($_POST) && !empty($_POST['phone']) ) {
+        if (!empty($_POST) && !empty($_POST['phone'])) {
 
             if (mb_substr(trim($_POST['phone']), 0, 5) != '+7 (9') {
                 exit;
