@@ -51,7 +51,7 @@ const ExpertiseBlock = (props) => {
         <p className="text-5xl font-bold">Наша экспертиза</p>
         <div className="mt-14 grid grid-cols-3 gap-x-8 gap-y-16">
           {array.map(item => (
-            <div className={`${colorsBlock[colorBlock]} h-80 flex flex-col items-center justify-center rounded-gst20`}>
+            <div key={item.text} className={`${colorsBlock[colorBlock]} h-80 flex flex-col items-center justify-center rounded-gst20`}>
               <p className={colorsIcon[colorIcon]}>{item.icon}</p>
               <p className="mt-6 text-2xl font-semibold leading-8 w-80 text-center">{item.text}</p>
             </div>
