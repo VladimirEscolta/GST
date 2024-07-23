@@ -5,9 +5,10 @@ import Button from "../../../components/Button";
 const CompanyBlock = () => {
   return (
     <div className="flex flex-col w-10/12 mx-auto py-24">
-      <div className="flex items-center text-sm">
-        <a href="/" className="flex mr-2 text-gst-main">Главная</a>
-        <p className="flex items-center opacity-50"><span className="text-xl mr-2">›</span> О компании</p>
+      <div className="flex items-center text-sm text-gst-main">
+        <a href="/" className="flex items-center mr-2">Главная</a>
+        <p className="text-xl mr-2 opacity-50 text-gst-text">›</p>
+        <p className="flex items-center opacity-50 text-gst-text">О компании</p>
       </div>
       <div className="flex flex-col relative mt-16">
         <img src={FirstRectangleImage} alt="first_rectangle" className='h-[580px] absolute top-0 right-0'/>

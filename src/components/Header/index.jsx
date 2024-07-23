@@ -2,7 +2,7 @@ import React from 'react';
 import {ArrowDownIcon, GstLogoIcon} from "../../assets/icons";
 import Button from "../Button";
 
-const Header = () => {
+const Index = () => {
   return (
     <div className="z-50 w-full flex sticky top-0 bg-white m-0 p-0 color-gst-text shadow-[0_12px_24px_0_#0B0A330A]">
       <div className="text-base font-medium mx-auto my-4 items-center justify-between flex w-10/12">
@@ -24,4 +24,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Index;

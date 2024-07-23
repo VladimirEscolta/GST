@@ -4,7 +4,7 @@ import SpecializationBlock from "./ui/SpecializationBlock";
 import ExpertiseBlock from "../Main/ui/ExpertiseBlock";
 import DiscussBlock from "../Main/ui/DiscussBlock";
 
-const About = () => {
+const Index = () => {
   return (
     <>
       <CompanyBlock/>
@@ -15,4 +15,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Index;

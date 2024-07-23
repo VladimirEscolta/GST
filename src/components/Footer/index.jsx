@@ -2,7 +2,7 @@ import React from 'react';
 import MapBlock from "./ui/MapBlock";
 import InfoBlock from "./ui/InfoBlock";
 
-const Footer = () => {
+const Index = () => {
   return (
     <>
       <MapBlock/>
@@ -11,4 +11,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Index;

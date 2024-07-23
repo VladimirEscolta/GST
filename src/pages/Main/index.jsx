@@ -8,7 +8,7 @@ import CallbackBlock from "./ui/CallbackBlock";
 import AdvantagesBlock from "./ui/AdvantagesBlock";
 import ExpertiseBlock from "./ui/ExpertiseBlock";
 
-const Main = () => {
+const Index = () => {
   return (
     <>
       <MainBlock/>
@@ -23,4 +23,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default Index;

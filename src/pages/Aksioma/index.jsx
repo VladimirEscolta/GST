@@ -8,7 +8,7 @@ import ControlActiveBlock from "./ui/ControlActiveBlock";
 import DirectionsBlock from "./ui/DirectionsBlock";
 import DiscussBlock from "../Main/ui/DiscussBlock";
 
-const Aksioma = () => {
+const Index = () => {
   return (
     <>
       <AksiomaBlock/>
@@ -23,4 +23,4 @@ const Aksioma = () => {
   );
 };
 
-export default Aksioma;
+export default Index;

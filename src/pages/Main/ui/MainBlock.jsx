@@ -11,7 +11,7 @@ import Button from "../../../components/Button";
 
 const MainBlock = () => {
   return (
-    <div className="data flex relative flex-col w-10/12 mx-auto py-24">
+    <div className="flex relative flex-col w-10/12 mx-auto py-24">
       <img src={FirstRectangleImage} alt="" className='absolute top-28 right-0'/>
       <div>
         <p className="flex p-2.5 w-fit font-bold bg-[#0F86D91A]">Многопрофильный системный интегратор и дистрибутор</p>
