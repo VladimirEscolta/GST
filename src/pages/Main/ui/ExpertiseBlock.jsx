@@ -56,30 +56,6 @@ const ExpertiseBlock = (props) => {
               <p className="mt-6 text-2xl font-semibold leading-8 w-80 text-center">{item.text}</p>
             </div>
           ))}
-          {/*<div className="h-64 bg-[#FFFFFF1A] flex flex-col items-center justify-center rounded-gst20">*/}
-          {/*  <Expertise1Icon/>*/}
-          {/*  <p className="mt-6 text-xl font-medium leading-7 w-72 text-center">Стандартизации предприятия</p>*/}
-          {/*</div>*/}
-          {/*<div className="h-64 bg-[#FFFFFF1A] flex flex-col items-center justify-center rounded-gst20">*/}
-          {/*  <Expertise2Icon/>*/}
-          {/*  <p className="mt-6 text-xl font-medium leading-7 w-72 text-center">Автоматизация строительства</p>*/}
-          {/*</div>*/}
-          {/*<div className="h-64 bg-[#FFFFFF1A] flex flex-col items-center justify-center rounded-gst20">*/}
-          {/*  <Expertise3Icon/>*/}
-          {/*  <p className="mt-6 text-xl font-medium leading-7 w-72 text-center">ТОиР (технологии обслуживания и ремонта)</p>*/}
-          {/*</div>*/}
-          {/*<div className="h-64 bg-[#FFFFFF1A] flex flex-col items-center justify-center rounded-gst20">*/}
-          {/*  <Expertise4Icon/>*/}
-          {/*  <p className="mt-6 text-xl font-medium leading-7 w-72 text-center">Производственная безопасность</p>*/}
-          {/*</div>*/}
-          {/*<div className="h-64 bg-[#FFFFFF1A] flex flex-col items-center justify-center rounded-gst20">*/}
-          {/*  <Expertise5Icon/>*/}
-          {/*  <p className="mt-6 text-xl font-medium leading-7 w-72 text-center">Разработка тренажеров виртуальной реальности</p>*/}
-          {/*</div>*/}
-          {/*<div className="h-64 bg-[#FFFFFF1A] flex flex-col items-center justify-center rounded-gst20">*/}
-          {/*  <Expertise6Icon/>*/}
-          {/*  <p className="mt-6 text-xl font-medium leading-7 w-72 text-center">Эксплуатации зданий и сооружений</p>*/}
-          {/*</div>*/}
         </div>
       </div>
     </div>

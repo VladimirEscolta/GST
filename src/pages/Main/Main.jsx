@@ -7,13 +7,10 @@ import KeyFunctionsBlock from "./ui/KeyFunctionsBlock";
 import CallbackBlock from "./ui/CallbackBlock";
 import AdvantagesBlock from "./ui/AdvantagesBlock";
 import ExpertiseBlock from "./ui/ExpertiseBlock";
-import Header from "../../components/Header/Header";
-import Footer from "../../components/Footer/Footer";
 
 const Main = () => {
   return (
     <>
-      <Header/>
       <MainBlock/>
       <ServicesBlock/>
       <ProductsBlock/>
@@ -22,7 +19,6 @@ const Main = () => {
       <CallbackBlock/>
       <AdvantagesBlock/>
       <ExpertiseBlock/>
-      <Footer/>
     </>
   );
 };

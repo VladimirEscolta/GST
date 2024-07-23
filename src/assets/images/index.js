@@ -19,6 +19,12 @@ import ServicesLogo3Image from './main/block_services_logo3.png'
 import ServicesRectangleImage from './main/block_services_rectangle.png'
 import Specialization1Image from './about/block_specialization1.png'
 import Specialization2Image from './about/block_specialization2.png'
+import AksiomaImage from './aksioma/block_aksioma.png'
+import AksiomaProducts1Image from './aksioma/block_products1.png'
+import AksiomaProducts2Image from './aksioma/block_products2.png'
+import AksiomaProducts3Image from './aksioma/block_products3.png'
+import AksiomaProducts4Image from './aksioma/block_products4.png'
+import AksiomaProducts5Image from './aksioma/block_products5.png'
 
 export {
   CallbackImage,
@@ -41,5 +47,11 @@ export {
   ServicesLogo3Image,
   ServicesRectangleImage,
   Specialization1Image,
-  Specialization2Image
+  Specialization2Image,
+  AksiomaImage,
+  AksiomaProducts1Image,
+  AksiomaProducts2Image,
+  AksiomaProducts3Image,
+  AksiomaProducts4Image,
+  AksiomaProducts5Image
 };

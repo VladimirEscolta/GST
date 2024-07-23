@@ -12,7 +12,7 @@ const CompanyBlock = () => {
       <div className="flex flex-col relative mt-16">
         <img src={FirstRectangleImage} alt="first_rectangle" className='h-[580px] absolute top-0 right-0'/>
           <p className="font-bold mt-12 text-gst64">О компании</p>
-          <p className="mt-12 text-xl font-medium leading-9 max-w-[600px]">«Глобальные сетевые Технологии» -
+          <p className="mt-12 text-xl font-medium leading-8 max-w-[600px]">«Глобальные сетевые Технологии» -
             ведущий разработчик прикладного ПО и системный интегратор в составе группы компаний ГСТ (Газстройтех),
             предоставляющий комплексные решения для автоматизации бизнеса и экспертизу в области строительства,
             эксплуатации и производственной безопасности</p>

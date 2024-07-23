@@ -1,10 +1,15 @@
 import React from 'react';
+import AksiomaBlock from "./ui/AksiomaBlock";
+import ProductsBlock from "./ui/ProductsBlock";
+import AdvantagesBlock from "./ui/AdvantagesBlock";
 
 const Aksioma = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <AksiomaBlock/>
+      <ProductsBlock/>
+      <AdvantagesBlock/>
+    </>
   );
 };
 
