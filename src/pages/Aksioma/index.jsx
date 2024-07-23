@@ -6,7 +6,7 @@ import ItBlock from "./ui/ItBlock";
 import StartSystemBlock from "./ui/StartSystemBlock";
 import ControlActiveBlock from "./ui/ControlActiveBlock";
 import DirectionsBlock from "./ui/DirectionsBlock";
-import DiscussBlock from "../Main/ui/DiscussBlock";
+import DiscussBlock from "../../components/DiscussBlock";
 
 const Index = () => {
   return (

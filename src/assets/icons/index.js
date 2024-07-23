@@ -30,6 +30,9 @@ import {ReactComponent as SettingIcon} from '../icons/settings.svg';
 import {ReactComponent as MetricIcon} from '../icons/metrics.svg';
 import {ReactComponent as AksiomaRepairIcon} from '../icons/aksioma_repair.svg';
 import {ReactComponent as AksiomaEstateIcon} from '../icons/aksioma_estate.svg';
+import {ReactComponent as AksiomaServiceIcon} from '../icons/aksioma_service.svg';
+import {ReactComponent as AksiomaOilgasIcon} from '../icons/aksioma_oilgas.svg';
+import {ReactComponent as AksiomaElectricIcon} from '../icons/aksioma_electric.svg';
 import {ReactComponent as AlarmIcon} from '../icons/alarm.svg';
 import {ReactComponent as DisksIcon} from '../icons/disks.svg';
 import {ReactComponent as GrafIcon} from '../icons/graf.svg';
@@ -64,5 +67,13 @@ export {
   ControlActive3Icon,
   SettingIcon,
   BoxIcon,
-  MetricIcon, AksiomaRepairIcon, AlarmIcon, DisksIcon, GrafIcon, AksiomaEstateIcon
+  MetricIcon,
+  AksiomaRepairIcon,
+  AlarmIcon,
+  DisksIcon,
+  GrafIcon,
+  AksiomaEstateIcon,
+  AksiomaElectricIcon,
+  AksiomaOilgasIcon,
+  AksiomaServiceIcon
 };

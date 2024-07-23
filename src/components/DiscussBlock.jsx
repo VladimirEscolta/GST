@@ -1,5 +1,5 @@
 import React from 'react';
-import {ArrowIcon, DotsIcon, DotsLongIcon} from "../../../assets/icons";
+import {ArrowIcon, DotsIcon, DotsLongIcon} from "../assets/icons";
 
 const DiscussBlock = () => {
   return (

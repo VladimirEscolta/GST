@@ -2,7 +2,7 @@ import React from 'react';
 import CompanyBlock from "./ui/CompanyBlock";
 import SpecializationBlock from "./ui/SpecializationBlock";
 import ExpertiseBlock from "../Main/ui/ExpertiseBlock";
-import DiscussBlock from "../Main/ui/DiscussBlock";
+import DiscussBlock from "../../components/DiscussBlock";
 
 const Index = () => {
   return (
