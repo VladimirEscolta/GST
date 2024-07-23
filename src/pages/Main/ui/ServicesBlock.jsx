@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from '../styles/ServicesBlock.module.scss'
 import {
   Services1Image, Services2Image, Services3Image,
   ServicesLogo1Image,
@@ -32,7 +31,7 @@ const ServicesBlock = () => {
 ]
 
   return (
-    <div className={styles.main}>
+    <div className="bg-service-gradient">
       <div className="data w-10/12 mx-auto py-24 flex flex-col justify-between">
         <p className="text-5xl font-bold text-white">Услуги</p>
         <div className="mt-14 grid grid-cols-3 gap-12">

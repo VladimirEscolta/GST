@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from '../styles/ExpertiseBlock.module.scss'
 import {
   Expertise1Icon,
   Expertise2Icon,
@@ -20,7 +19,7 @@ const ExpertiseBlock = (props) => {
   } = props;
 
   const colors = {
-    main: `${styles.main} text-white`,
+    main: 'bg-gradient-to-b from-gst-main to-[#006EBB] text-white',
     white: 'bg-white text-gst-text',
   }
 

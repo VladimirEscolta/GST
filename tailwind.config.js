@@ -28,6 +28,12 @@ module.exports = {
         'gst42': '42px',
         'gst56': '56px',
         'gst70': '70px'
+      },
+      backgroundImage: {
+        'aksioma-gradient': 'linear-gradient(177.32deg, #0F86D9 15.71%, #113E7C 172.91%)',
+        'about-gradient': 'linear-gradient(98.53deg, #0F86D9 12.05%, #113E7C 97.83%)',
+        'service-gradient': 'linear-gradient(305.94deg, #0F86D9 33.75%, #113E7C 90.8%)'
+
       }
     },
   },

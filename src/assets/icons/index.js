@@ -20,6 +20,14 @@ import {ReactComponent as Expertise6Icon} from '../icons/expertise6.svg';
 import {ReactComponent as KeyFunctions1Icon} from '../icons/key_functions1.svg';
 import {ReactComponent as KeyFunctions2Icon} from '../icons/key_functions2.svg';
 import {ReactComponent as KeyFunctions3Icon} from '../icons/key_functions3.svg';
+import {ReactComponent as CheckIcon} from '../icons/check.svg';
+import {ReactComponent as CheckBlueIcon} from '../icons/check_blue.svg';
+import {ReactComponent as ControlActive1Icon} from '../icons/Control_active_block1.svg';
+import {ReactComponent as ControlActive2Icon} from '../icons/Control_active_block2.svg';
+import {ReactComponent as ControlActive3Icon} from '../icons/Control_active_block3.svg';
+import {ReactComponent as BoxIcon} from '../icons/box.svg';
+import {ReactComponent as SettingIcon} from '../icons/settings.svg';
+import {ReactComponent as MetricIcon} from '../icons/metrics.svg';
 
 export {
   ArrowDownIcon,
@@ -43,5 +51,13 @@ export {
   Expertise6Icon,
   KeyFunctions1Icon,
   KeyFunctions2Icon,
-  KeyFunctions3Icon
+  KeyFunctions3Icon,
+  CheckIcon,
+  CheckBlueIcon,
+  ControlActive1Icon,
+  ControlActive2Icon,
+  ControlActive3Icon,
+  SettingIcon,
+  BoxIcon,
+  MetricIcon
 };

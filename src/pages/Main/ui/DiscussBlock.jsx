@@ -1,10 +1,9 @@
 import React from 'react';
-import styles from '../styles/DiscussBlock.module.scss'
 import {ArrowIcon, DotsIcon, DotsLongIcon} from "../../../assets/icons";
 
 const DiscussBlock = () => {
   return (
-    <div className={`${styles.main} relative h-96 flex items-center justify-between mx-auto`}>
+    <div className="bg-gradient-to-r from-gst-main to-gst-second relative h-96 flex items-center justify-between mx-auto">
       <div className="absolute top-0 w-full mx-auto justify-center flex">
         <DotsLongIcon/>
       </div>

@@ -1,11 +1,10 @@
 import React from 'react';
-import styles from '../styles/SpecializationBlock.module.scss'
 import Button from "../../../components/Button";
 import {Specialization1Image, Specialization2Image} from "../../../assets/images";
 
 const SpecializationBlock = () => {
   return (
-    <div className={styles.main}>
+    <div className="bg-about-gradient">
       <div className="data w-10/12 mx-auto py-24 flex flex-col justify-between items-center">
         <div className="flex items-center justify-between w-full">
           <div className="text-5xl font-bold text-white">Наша специализация</div>
