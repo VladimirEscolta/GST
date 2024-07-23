@@ -6,6 +6,7 @@ import Aksioma from "./pages/Aksioma";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import AksiomaRepair from "./pages/AksiomaRepair";
+import AksiomaEstate from "./pages/AksiomaEstate";
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<Main/>}/>
         <Route path="/aksioma" element={<Aksioma/>}/>
         <Route path="/aksioma/repair" element={<AksiomaRepair/>}/>
+        <Route path="/aksioma/estate" element={<AksiomaEstate/>}/>
         <Route path="/about" element={<About/>}/>
       </Routes>
       <Footer/>
