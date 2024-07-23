@@ -29,7 +29,7 @@ const ResultBlock = () => {
     <div className="text-white bg-aksioma-gradient">
       <div className="w-10/12 mx-auto py-24 flex flex-col justify-between">
         <p className="text-5xl font-bold">Результаты внедрения</p>
-        <div className="mt-14 grid grid-cols-3 gap-x-8 gap-y-16">
+        <div className="mt-14 grid grid-cols-3 gap-8">
           {array.map((item, index) => (
             <div key={item} className="p-8 min-h-[227px] flex flex-col rounded-gst20 border bg-gst-main border-[#2394F1]">
               <p className="mt-6 text-2xl font-medium max-w-[370px]">{item}</p>
