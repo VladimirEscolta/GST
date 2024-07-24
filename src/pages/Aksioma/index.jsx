@@ -3,11 +3,9 @@ import AksiomaBlock from "./ui/AksiomaBlock";
 import ProductsBlock from "./ui/ProductsBlock";
 import AdvantagesBlock from "./ui/AdvantagesBlock";
 import ItBlock from "./ui/ItBlock";
-import ControlActiveBlock from "./ui/ControlActiveBlock";
-import DirectionsBlock from "./ui/DirectionsBlock";
 import DiscussBlock from "../../components/DiscussBlock";
 import CheckboxBlock from "../../components/CheckboxBlock";
-import GridColorBlock from "../../components/GridColorBlock";
+import GridBlock from "../../components/GridBlock";
 import {
   BoxIcon,
   ControlActive1Icon,
@@ -19,7 +17,7 @@ import GridWhiteBlock from "../../components/GridWhiteBlock";
 const Index = () => {
 
   const dataKeyAdvantages = {
-    name: 'Управляйте активами эффективно',
+    name: 'Основные направления деятельности для повышения эффективности работы активов',
     data: [
       {
         icon: <BoxIcon/>,
@@ -54,7 +52,7 @@ const Index = () => {
   }
 
   const dataResult = {
-    name: 'Результаты внедрения',
+    name: 'Управляйте активами эффективно',
     data: [
       {
         icon: <ControlActive1Icon/>,
@@ -81,10 +79,8 @@ const Index = () => {
       <AdvantagesBlock/>
       <ItBlock/>
       <CheckboxBlock data={dataTasks}/>
-      <GridColorBlock data={dataResult}/>
-      {/*<ControlActiveBlock/>*/}
-      <GridWhiteBlock data={dataKeyAdvantages} header={'sm'} text={'sm'}/>
-      {/*<DirectionsBlock/>*/}
+      <GridBlock data={dataResult}/>
+      <GridWhiteBlock data={dataKeyAdvantages}/>
       <DiscussBlock/>
     </>
   );

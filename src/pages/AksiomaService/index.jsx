@@ -6,7 +6,7 @@ import CheckboxBlock from "../../components/CheckboxBlock";
 import ProductsBlock from "../Aksioma/ui/ProductsBlock";
 import DiscussBlock from "../../components/DiscussBlock";
 import {AksiomaServiceIcon} from "../../assets/icons";
-import GridColorBlock from "../../components/GridColorBlock";
+import GridBlock from "../../components/GridBlock";
 
 const Index = () => {
 
@@ -80,7 +80,7 @@ const Index = () => {
       <GridWhiteBlock data={dataKeyAdvantages}/>
       <ItBlock/>
       <CheckboxBlock data={dataTasks}/>
-      <GridColorBlock data={dataResult}/>
+      <GridBlock data={dataResult}/>
       <ProductsBlock/>
       <DiscussBlock/>
     </>

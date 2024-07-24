@@ -1,6 +1,6 @@
 import React from 'react';
 import ItBlock from "../Aksioma/ui/ItBlock";
-import GridColorBlock from "../../components/GridColorBlock";
+import GridBlock from "../../components/GridBlock";
 import ProductsBlock from "../Aksioma/ui/ProductsBlock";
 import DiscussBlock from "../../components/DiscussBlock";
 import {AksiomaRepairIcon, AlarmIcon, DisksIcon, GrafIcon} from "../../assets/icons";
@@ -78,7 +78,7 @@ const Index = () => {
       <GridWhiteBlock data={dataKeyAdvantages}/>
       <ItBlock/>
       <CheckboxBlock data={dataTasks}/>
-      <GridColorBlock data={dataResult}/>
+      <GridBlock data={dataResult}/>
       <ProductsBlock/>
       <DiscussBlock/>
     </>

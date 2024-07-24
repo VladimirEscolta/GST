@@ -6,7 +6,7 @@ import MainSectionBlock from "../../components/MainSectionBlock";
 import {AksiomaEstateIcon} from "../../assets/icons";
 import GridWhiteBlock from "../../components/GridWhiteBlock";
 import CheckboxBlock from "../../components/CheckboxBlock";
-import GridColorBlock from "../../components/GridColorBlock";
+import GridBlock from "../../components/GridBlock";
 
 const Index = () => {
 
@@ -82,7 +82,7 @@ const Index = () => {
       <GridWhiteBlock data={dataKeyAdvantages}/>
       <ItBlock/>
       <CheckboxBlock data={dataTasks}/>
-      <GridColorBlock data={dataResult}/>
+      <GridBlock data={dataResult}/>
       <ProductsBlock/>
       <DiscussBlock/>
     </>
