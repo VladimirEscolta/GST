@@ -11,11 +11,11 @@ import {
 const ProductsBlock = () => {
 
   const array = [
-    {icon: AksiomaProducts1Image, link: '/', text: 'Аксиома: имущество'},
-    {icon: AksiomaProducts2Image, link: '/', text: 'Аксиома: ремонты'},
-    {icon: AksiomaProducts3Image, link: '/', text: 'Аксиома: сервис'},
-    {icon: AksiomaProducts4Image, link: '/', text: 'Аксиома: нефтегаз'},
-    {icon: AksiomaProducts5Image, link: '/', text: 'Аксиома: электроэнергетика'},
+    {icon: AksiomaProducts1Image, link: '/aksioma/estate', text: 'Аксиома: имущество'},
+    {icon: AksiomaProducts2Image, link: '/aksioma/repair', text: 'Аксиома: ремонты'},
+    {icon: AksiomaProducts3Image, link: '/aksioma/service', text: 'Аксиома: сервис'},
+    {icon: AksiomaProducts4Image, link: '/aksioma/oilgas', text: 'Аксиома: нефтегаз'},
+    {icon: AksiomaProducts5Image, link: '/aksioma/electric', text: 'Аксиома: электроэнергетика'},
   ]
   return (
     <div className="w-10/12 mx-auto py-24 flex flex-col justify-between">

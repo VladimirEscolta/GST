@@ -7,7 +7,7 @@ const MainSectionBlock = ({data}) => {
       <div className="flex items-center text-sm text-gst-main">
         <a href="/" className="flex items-center mr-2">Главная</a>
         <p className="text-xl mr-2">›</p>
-        <a href="/Aksioma" className="flex mr-2">Продукты Аксиома</a>
+        <a href="/aksioma" className="flex mr-2">Продукты Аксиома</a>
         <p className="text-xl mr-2 opacity-50 text-gst-text">›</p>
         <p className="flex items-center opacity-50 text-gst-text">{data.name}</p>
       </div>

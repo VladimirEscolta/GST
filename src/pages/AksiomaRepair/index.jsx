@@ -1,9 +1,9 @@
 import React from 'react';
 import ItBlock from "../Aksioma/ui/ItBlock";
-import ResultBlock from "./ui/ResultBlock";
+import ResultBlock from "../../components/ResultBlock";
 import ProductsBlock from "../Aksioma/ui/ProductsBlock";
 import DiscussBlock from "../../components/DiscussBlock";
-import {AksiomaRepairIcon} from "../../assets/icons";
+import {AksiomaRepairIcon, AlarmIcon, DisksIcon, GrafIcon} from "../../assets/icons";
 import MainSectionBlock from "../../components/MainSectionBlock";
 import KeyAdvantagesBlock from "../../components/KeyAdvantagesBlock";
 import TasksBlock from "../../components/TasksBlock";
@@ -51,13 +51,31 @@ const Index = () => {
     'Регистрация, обработка и контроль выполнения плановых и внеплановых работ'
   ]
 
+  const dataResult = {
+    name: 'Результаты внедрения',
+    data: [
+      {
+        icon: <AlarmIcon/>,
+        text: 'Снижение времени простоя оборудования'
+      },
+      {
+        icon: <DisksIcon/>,
+        text: 'Сокращение затрат на техническое обслуживание и ремонты'
+      },
+      {
+        icon: <GrafIcon/>,
+        text: 'Повышение прозрачности и эффективности деятельности обслуживающих подразделений'
+      },
+    ]
+  }
+
   return (
     <>
       <MainSectionBlock data={dataMain}/>
       <KeyAdvantagesBlock data={dataKeyAdvantages.data} name={dataKeyAdvantages.name}/>
       <ItBlock/>
       <TasksBlock data={dataTasks}/>
-      <ResultBlock/>
+      <ResultBlock data={dataResult.data} name={dataResult.name}/>
       <ProductsBlock/>
       <DiscussBlock/>
     </>

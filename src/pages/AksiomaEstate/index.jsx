@@ -1,12 +1,12 @@
 import React from 'react';
 import ItBlock from "../Aksioma/ui/ItBlock";
-import ResultBlock from "./ui/ResultBlock";
 import ProductsBlock from "../Aksioma/ui/ProductsBlock";
 import DiscussBlock from "../../components/DiscussBlock";
 import MainSectionBlock from "../../components/MainSectionBlock";
 import {AksiomaEstateIcon} from "../../assets/icons";
 import KeyAdvantagesBlock from "../../components/KeyAdvantagesBlock";
 import TasksBlock from "../../components/TasksBlock";
+import ResultBlock from "../../components/ResultBlock";
 
 const Index = () => {
 
@@ -52,13 +52,34 @@ const Index = () => {
     'Интеграция данных для различных подразделений и целей'
   ]
 
+  const dataResult = {
+    name: 'Результаты внедрения',
+    data: [
+      {text: 'Улучшение информационного обеспечения'},
+      {text: 'Предоставление актуальной информации о состоянии основных средств'},
+      {text: 'Доступ к данным о потребностях в закупках и трудозатратах'},
+      {text: 'Оптимизация финансового планирования'},
+      {text: 'Эффективное определение затрат на обслуживание активов'},
+      {text: 'Создание банка технологической и финансовой аналитической информации'},
+      {text: 'Повышение эффективности работы'},
+      {text: 'Улучшение взаимодействия структурных подразделений'},
+      {text: 'Сокращение времени на планирование и выполнение ремонтных работ'},
+      {text: 'Экономическая эффективность'},
+      {text: 'Снижение затрат на ремонтные работы и обслуживание основных средств'},
+      {text: 'Уменьшение числа аварийных и внеплановых работ'},
+      {text: 'Гибкость в формировании отчетности'},
+      {text: 'Подготовка оперативных отчетов по различным группам объектов'},
+      {text: 'Многоаспектный анализ данных в единой интегрированной среде}'}
+    ]
+  }
+
   return (
     <>
       <MainSectionBlock data={dataMain}/>
       <KeyAdvantagesBlock data={dataKeyAdvantages.data} name={dataKeyAdvantages.name}/>
       <ItBlock/>
       <TasksBlock data={dataTasks}/>
-      <ResultBlock/>
+      <ResultBlock data={dataResult.data} name={dataResult.name}/>
       <ProductsBlock/>
       <DiscussBlock/>
     </>

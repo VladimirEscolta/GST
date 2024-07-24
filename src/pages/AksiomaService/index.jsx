@@ -3,10 +3,10 @@ import MainSectionBlock from "../../components/MainSectionBlock";
 import KeyAdvantagesBlock from "../../components/KeyAdvantagesBlock";
 import ItBlock from "../Aksioma/ui/ItBlock";
 import TasksBlock from "../../components/TasksBlock";
-import ResultBlock from "./ui/ResultBlock";
 import ProductsBlock from "../Aksioma/ui/ProductsBlock";
 import DiscussBlock from "../../components/DiscussBlock";
 import {AksiomaServiceIcon} from "../../assets/icons";
+import ResultBlock from "../../components/ResultBlock";
 
 const Index = () => {
 
@@ -53,13 +53,31 @@ const Index = () => {
     'Ведение полной информации об объектах эксплуатации'
   ]
 
+  const dataResult = {
+    name: 'Результаты внедрения',
+    data: [
+      {text: 'Стратегическое планирование'},
+      {text: 'Поддержка принятия стратегических решений'},
+      {text: 'Выявление ликвидных и неликвидных сервисных контрактов и типов услуг'},
+      {text: 'Повышение качества обслуживания'},
+      {text: 'Рост лояльности заказчиков'},
+      {text: 'Прозрачная отчетность по работам и затратам'},
+      {text: 'Оптимизация ресурсов'},
+      {text: 'Снижение себестоимости услуг'},
+      {text: 'Эффективное планирование работ и управление фондами'},
+      {text: 'Масштабируемость'},
+      {text: 'Быстрое включение новых сотрудников и подрядчиков в рабочий процесс'},
+      {text: 'Использование шаблонов действий и процессов'}
+    ]
+  }
+
   return (
     <>
       <MainSectionBlock data={dataMain}/>
       <KeyAdvantagesBlock data={dataKeyAdvantages.data} name={dataKeyAdvantages.name}/>
       <ItBlock/>
       <TasksBlock data={dataTasks}/>
-      <ResultBlock/>
+      <ResultBlock data={dataResult.data} name={dataResult.name}/>
       <ProductsBlock/>
       <DiscussBlock/>
     </>

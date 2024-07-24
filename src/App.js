@@ -8,6 +8,8 @@ import Footer from "./components/Footer";
 import AksiomaRepair from "./pages/AksiomaRepair";
 import AksiomaEstate from "./pages/AksiomaEstate";
 import AksiomaService from "./pages/AksiomaService";
+import AksiomaOilgas from "./pages/AksiomaOilgas";
+import AksiomaElectric from "./pages/AksiomaElectric";
 
 function App() {
 
@@ -20,6 +22,8 @@ function App() {
         <Route path="/aksioma/repair" element={<AksiomaRepair/>}/>
         <Route path="/aksioma/estate" element={<AksiomaEstate/>}/>
         <Route path="/aksioma/service" element={<AksiomaService/>}/>
+        <Route path="/aksioma/oilgas" element={<AksiomaOilgas/>}/>
+        <Route path="/aksioma/electric" element={<AksiomaElectric/>}/>
         <Route path="/about" element={<About/>}/>
       </Routes>
       <Footer/>
