@@ -1,12 +1,12 @@
 import React from 'react';
 import ItBlock from "../Aksioma/ui/ItBlock";
-import ResultBlock from "../../components/ResultBlock";
+import GridColorBlock from "../../components/GridColorBlock";
 import ProductsBlock from "../Aksioma/ui/ProductsBlock";
 import DiscussBlock from "../../components/DiscussBlock";
 import {AksiomaRepairIcon, AlarmIcon, DisksIcon, GrafIcon} from "../../assets/icons";
 import MainSectionBlock from "../../components/MainSectionBlock";
-import KeyAdvantagesBlock from "../../components/KeyAdvantagesBlock";
-import TasksBlock from "../../components/TasksBlock";
+import GridWhiteBlock from "../../components/GridWhiteBlock";
+import CheckboxBlock from "../../components/CheckboxBlock";
 
 const Index = () => {
 
@@ -43,13 +43,16 @@ const Index = () => {
     ]
   }
 
-  const dataTasks = [
-    'Ведение реестра технологического оборудования и инженерных систем',
-    'Ведение классификаторов оборудования, дефектов и технологических карт',
-    'Планирование ТОиР, поверок и калибровок',
-    'Организация взаимодействия с существующими учетными системами предприятия и АСУ ТП',
-    'Регистрация, обработка и контроль выполнения плановых и внеплановых работ'
-  ]
+  const dataTasks = {
+    name: 'Решаемые задачи',
+    data: [
+      'Ведение реестра технологического оборудования и инженерных систем',
+      'Ведение классификаторов оборудования, дефектов и технологических карт',
+      'Планирование ТОиР, поверок и калибровок',
+      'Организация взаимодействия с существующими учетными системами предприятия и АСУ ТП',
+      'Регистрация, обработка и контроль выполнения плановых и внеплановых работ'
+    ]
+  }
 
   const dataResult = {
     name: 'Результаты внедрения',
@@ -72,10 +75,10 @@ const Index = () => {
   return (
     <>
       <MainSectionBlock data={dataMain}/>
-      <KeyAdvantagesBlock data={dataKeyAdvantages.data} name={dataKeyAdvantages.name}/>
+      <GridWhiteBlock data={dataKeyAdvantages}/>
       <ItBlock/>
-      <TasksBlock data={dataTasks}/>
-      <ResultBlock data={dataResult.data} name={dataResult.name}/>
+      <CheckboxBlock data={dataTasks}/>
+      <GridColorBlock data={dataResult}/>
       <ProductsBlock/>
       <DiscussBlock/>
     </>

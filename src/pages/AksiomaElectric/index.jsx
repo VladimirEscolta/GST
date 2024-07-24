@@ -1,12 +1,12 @@
 import React from 'react';
 import MainSectionBlock from "../../components/MainSectionBlock";
-import KeyAdvantagesBlock from "../../components/KeyAdvantagesBlock";
+import GridWhiteBlock from "../../components/GridWhiteBlock";
 import ItBlock from "../Aksioma/ui/ItBlock";
-import TasksBlock from "../../components/TasksBlock";
+import CheckboxBlock from "../../components/CheckboxBlock";
 import ProductsBlock from "../Aksioma/ui/ProductsBlock";
 import DiscussBlock from "../../components/DiscussBlock";
 import {AksiomaElectricIcon} from "../../assets/icons";
-import ResultBlock from "../../components/ResultBlock";
+import GridColorBlock from "../../components/GridColorBlock";
 
 const Index = () => {
 
@@ -43,15 +43,18 @@ const Index = () => {
     ]
   }
 
-  const dataTasks = [
-    'Предотвращение аварий в производственном цикле',
-    'Повышение прозрачности выполнения работ',
-    'Усиление персональной ответственности',
-    'Снижение стоимости владения активами',
-    'Повышение рентабельности',
-    'Соответствие высоким стандартам надежности, безопасности и качества',
-    'Продление срока службы оборудования'
-  ]
+  const dataTasks = {
+    name: 'Решаемые задачи',
+    data: [
+      'Предотвращение аварий в производственном цикле',
+      'Повышение прозрачности выполнения работ',
+      'Усиление персональной ответственности',
+      'Снижение стоимости владения активами',
+      'Повышение рентабельности',
+      'Соответствие высоким стандартам надежности, безопасности и качества',
+      'Продление срока службы оборудования'
+    ]
+  }
 
   const dataResult = {
     name: 'Типы управляемых активов',
@@ -71,9 +74,9 @@ const Index = () => {
   return (
     <>
       <MainSectionBlock data={dataMain}/>
-      <KeyAdvantagesBlock data={dataKeyAdvantages.data} name={dataKeyAdvantages.name}/>
-      <ResultBlock data={dataResult.data} name={dataResult.name}/>
-      <TasksBlock data={dataTasks}/>
+      <GridWhiteBlock data={dataKeyAdvantages}/>
+      <GridColorBlock data={dataResult}/>
+      <CheckboxBlock data={dataTasks}/>
       <ItBlock/>
       <ProductsBlock/>
       <DiscussBlock/>

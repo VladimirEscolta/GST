@@ -4,9 +4,9 @@ import ProductsBlock from "../Aksioma/ui/ProductsBlock";
 import DiscussBlock from "../../components/DiscussBlock";
 import MainSectionBlock from "../../components/MainSectionBlock";
 import {AksiomaEstateIcon} from "../../assets/icons";
-import KeyAdvantagesBlock from "../../components/KeyAdvantagesBlock";
-import TasksBlock from "../../components/TasksBlock";
-import ResultBlock from "../../components/ResultBlock";
+import GridWhiteBlock from "../../components/GridWhiteBlock";
+import CheckboxBlock from "../../components/CheckboxBlock";
+import GridColorBlock from "../../components/GridColorBlock";
 
 const Index = () => {
 
@@ -43,14 +43,17 @@ const Index = () => {
     ]
   }
 
-  const dataTasks = [
-    'Ведение реестра объектов недвижимого имущества',
-    'Планирование работ по капитальному строительству, ремонту и обслуживанию',
-    'Управление материально-техническим снабжением',
-    'Оценка эффективности использования имущественных комплексов',
-    'Обеспечение многоаспектной аналитической информацией',
-    'Интеграция данных для различных подразделений и целей'
-  ]
+  const dataTasks = {
+    name: 'Решаемые задачи',
+    data: [
+      'Ведение реестра объектов недвижимого имущества',
+      'Планирование работ по капитальному строительству, ремонту и обслуживанию',
+      'Управление материально-техническим снабжением',
+      'Оценка эффективности использования имущественных комплексов',
+      'Обеспечение многоаспектной аналитической информацией',
+      'Интеграция данных для различных подразделений и целей'
+    ]
+  }
 
   const dataResult = {
     name: 'Результаты внедрения',
@@ -76,10 +79,10 @@ const Index = () => {
   return (
     <>
       <MainSectionBlock data={dataMain}/>
-      <KeyAdvantagesBlock data={dataKeyAdvantages.data} name={dataKeyAdvantages.name}/>
+      <GridWhiteBlock data={dataKeyAdvantages}/>
       <ItBlock/>
-      <TasksBlock data={dataTasks}/>
-      <ResultBlock data={dataResult.data} name={dataResult.name}/>
+      <CheckboxBlock data={dataTasks}/>
+      <GridColorBlock data={dataResult}/>
       <ProductsBlock/>
       <DiscussBlock/>
     </>
