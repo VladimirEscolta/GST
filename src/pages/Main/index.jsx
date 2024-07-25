@@ -6,7 +6,6 @@ import DiscussBlock from "../../components/DiscussBlock";
 import KeyFunctionsBlock from "./ui/KeyFunctionsBlock";
 import CallbackBlock from "./ui/CallbackBlock";
 import AdvantagesBlock from "./ui/AdvantagesBlock";
-import ExpertiseBlock from "./ui/ExpertiseBlock";
 import GridBlock from "../../components/GridBlock";
 import {
   Expertise1Icon, Expertise2Icon, Expertise3Icon, Expertise4Icon, Expertise5Icon, Expertise6Icon
@@ -25,6 +24,7 @@ const Index = () => {
       {icon: <Expertise6Icon/>, header: 'Эксплуатации зданий и сооружений'},
     ]
   }
+
   return (
     <>
       <MainBlock/>
@@ -34,8 +34,8 @@ const Index = () => {
       <KeyFunctionsBlock/>
       <CallbackBlock/>
       <AdvantagesBlock/>
-      <GridBlock data={dataExpertise} align={'center'} className={'h-80 justify-center'} width2={'w-80'} theme={'color'} color={'bg-main-gradient'} size={'sm'}/>
-      {/*<ExpertiseBlock/>*/}
+      <GridBlock data={dataExpertise} align={'center'} className={'h-80 justify-center'} width={'w-80'} theme={'color'}
+                 color={'bg-main-gradient'} size={'sm'}/>
     </>
   );
 };

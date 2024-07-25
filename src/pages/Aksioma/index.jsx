@@ -7,14 +7,24 @@ import DiscussBlock from "../../components/DiscussBlock";
 import CheckboxBlock from "../../components/CheckboxBlock";
 import GridBlock from "../../components/GridBlock";
 import {
+  AksiomaElectricIcon,
   BoxIcon,
   ControlActive1Icon,
   ControlActive2Icon,
   ControlActive3Icon, MetricIcon, SettingIcon
 } from "../../assets/icons";
 import GridWhiteBlock from "../../components/GridWhiteBlock";
+import MainSectionBlock from "../../components/MainSectionBlock";
 
 const Index = () => {
+
+  // const dataMain = {
+  //   name: 'Продукты Аксиома',
+  //   name2: false,
+  //   header: 'Управление техническим обслуживанием и ремонтами (ТОИР)',
+  //   text: 'Аксиома: электроэнергетика - это отечественная система управления техническим обслуживанием и ремонтами (ТОиР) для электроэнергетической отрасли. Платформа направлена на цифровизацию процессов ТОиР, снижение стоимости владения активами и повышение надежности и безопасности энергетического оборудования.',
+  //   icon: <AksiomaElectricIcon/>
+  // }
 
   const dataKeyAdvantages = {
     name: 'Основные направления деятельности для повышения эффективности работы активов',
@@ -56,31 +66,32 @@ const Index = () => {
     data: [
       {
         icon: <ControlActive1Icon/>,
-        text: 'Повышение качества сервиса',
-        subtext: 'Контроль качества работы исполнителей, отслеживание KPI оборудования и подразделений, снижение числа остановок и времени простоя оборудования.'
+        header: 'Повышение качества сервиса',
+        text: 'Контроль качества работы исполнителей, отслеживание KPI оборудования и подразделений, снижение числа остановок и времени простоя оборудования.'
       },
       {
         icon: <ControlActive2Icon/>,
-        text: 'Сокращение расходов',
-        subtext: 'Контроль затрат, отслеживание исполнения договорных обязательств, оптимизация внутренних и привлекаемых ресурсов, складских запасов.'
+        header: 'Сокращение расходов',
+        text: 'Контроль затрат, отслеживание исполнения договорных обязательств, оптимизация внутренних и привлекаемых ресурсов, складских запасов.'
       },
       {
         icon: <ControlActive3Icon/>,
-        text: 'Снижение рисков',
-        subtext: 'Контроль за соблюдением стандартов и нормативов, «единая правда» по всем объектам, ведение истории отказов, инцидентов, прогнозирование.'
+        header: 'Снижение рисков',
+        text: 'Контроль за соблюдением стандартов и нормативов, «единая правда» по всем объектам, ведение истории отказов, инцидентов, прогнозирование.'
       },
     ]
   }
 
   return (
     <>
+      {/*<MainSectionBlock data={dataMain}/>*/}
       <AksiomaBlock/>
       <ProductsBlock/>
       <AdvantagesBlock/>
       <ItBlock/>
       <CheckboxBlock data={dataTasks}/>
-      <GridBlock data={dataResult}/>
-      <GridWhiteBlock data={dataKeyAdvantages}/>
+      <GridBlock data={dataResult} theme={'color'} size={'sm'}/>
+      <GridBlock data={dataKeyAdvantages} colorIcon={'text-gst-main'}/>
       <DiscussBlock/>
     </>
   );

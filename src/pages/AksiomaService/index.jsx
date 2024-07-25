@@ -1,6 +1,5 @@
 import React from 'react';
 import MainSectionBlock from "../../components/MainSectionBlock";
-import GridWhiteBlock from "../../components/GridWhiteBlock";
 import ItBlock from "../Aksioma/ui/ItBlock";
 import CheckboxBlock from "../../components/CheckboxBlock";
 import ProductsBlock from "../Aksioma/ui/ProductsBlock";
@@ -59,28 +58,28 @@ const Index = () => {
   const dataResult = {
     name: 'Результаты внедрения',
     data: [
-      {text: 'Стратегическое планирование'},
-      {text: 'Поддержка принятия стратегических решений'},
-      {text: 'Выявление ликвидных и неликвидных сервисных контрактов и типов услуг'},
-      {text: 'Повышение качества обслуживания'},
-      {text: 'Рост лояльности заказчиков'},
-      {text: 'Прозрачная отчетность по работам и затратам'},
-      {text: 'Оптимизация ресурсов'},
-      {text: 'Снижение себестоимости услуг'},
-      {text: 'Эффективное планирование работ и управление фондами'},
-      {text: 'Масштабируемость'},
-      {text: 'Быстрое включение новых сотрудников и подрядчиков в рабочий процесс'},
-      {text: 'Использование шаблонов действий и процессов'}
+      {header: 'Стратегическое планирование'},
+      {header: 'Поддержка принятия стратегических решений'},
+      {header: 'Выявление ликвидных и неликвидных сервисных контрактов и типов услуг'},
+      {header: 'Повышение качества обслуживания'},
+      {header: 'Рост лояльности заказчиков'},
+      {header: 'Прозрачная отчетность по работам и затратам'},
+      {header: 'Оптимизация ресурсов'},
+      {header: 'Снижение себестоимости услуг'},
+      {header: 'Эффективное планирование работ и управление фондами'},
+      {header: 'Масштабируемость'},
+      {header: 'Быстрое включение новых сотрудников и подрядчиков в рабочий процесс'},
+      {header: 'Использование шаблонов действий и процессов'}
     ]
   }
 
   return (
     <>
       <MainSectionBlock data={dataMain}/>
-      <GridWhiteBlock data={dataKeyAdvantages}/>
+      <GridBlock data={dataKeyAdvantages}/>
       <ItBlock/>
       <CheckboxBlock data={dataTasks}/>
-      <GridBlock data={dataResult}/>
+      <GridBlock data={dataResult} theme={'color'} size={'sm'}/>
       <ProductsBlock/>
       <DiscussBlock/>
     </>

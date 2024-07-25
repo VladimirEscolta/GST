@@ -5,7 +5,6 @@ import ProductsBlock from "../Aksioma/ui/ProductsBlock";
 import DiscussBlock from "../../components/DiscussBlock";
 import {AksiomaRepairIcon, AlarmIcon, DisksIcon, GrafIcon} from "../../assets/icons";
 import MainSectionBlock from "../../components/MainSectionBlock";
-import GridWhiteBlock from "../../components/GridWhiteBlock";
 import CheckboxBlock from "../../components/CheckboxBlock";
 
 const Index = () => {
@@ -59,15 +58,15 @@ const Index = () => {
     data: [
       {
         icon: <AlarmIcon/>,
-        text: 'Снижение времени простоя оборудования'
+        header: 'Снижение времени простоя оборудования'
       },
       {
         icon: <DisksIcon/>,
-        text: 'Сокращение затрат на техническое обслуживание и ремонты'
+        header: 'Сокращение затрат на техническое обслуживание и ремонты'
       },
       {
         icon: <GrafIcon/>,
-        text: 'Повышение прозрачности и эффективности деятельности обслуживающих подразделений'
+        header: 'Повышение прозрачности и эффективности деятельности обслуживающих подразделений'
       },
     ]
   }
@@ -75,10 +74,10 @@ const Index = () => {
   return (
     <>
       <MainSectionBlock data={dataMain}/>
-      <GridWhiteBlock data={dataKeyAdvantages}/>
+      <GridBlock data={dataKeyAdvantages}/>
       <ItBlock/>
       <CheckboxBlock data={dataTasks}/>
-      <GridBlock data={dataResult}/>
+      <GridBlock data={dataResult} theme={'color'} size={'sm'}/>
       <ProductsBlock/>
       <DiscussBlock/>
     </>

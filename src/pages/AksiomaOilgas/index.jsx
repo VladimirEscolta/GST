@@ -1,6 +1,5 @@
 import React from 'react';
 import MainSectionBlock from "../../components/MainSectionBlock";
-import GridWhiteBlock from "../../components/GridWhiteBlock";
 import ItBlock from "../Aksioma/ui/ItBlock";
 import CheckboxBlock from "../../components/CheckboxBlock";
 import ProductsBlock from "../Aksioma/ui/ProductsBlock";
@@ -59,11 +58,11 @@ const Index = () => {
   const dataResult = {
     name: 'Результаты внедрения',
     data: [
-      {text: 'Сокращение числа внеплановых остановок оборудования до 35%'},
-      {text: 'Увеличение срока безотказной службы агрегатов'},
-      {text: 'Сокращение доли сверхурочных работ до 25%'},
-      {text: 'Снижение уровня сверхнормативных запасов запчастей и материалов'},
-      {text: 'Уменьшение затрат на обслуживание оборудования до 20%'}
+      {header: 'Сокращение числа внеплановых остановок оборудования до 35%'},
+      {header: 'Увеличение срока безотказной службы агрегатов'},
+      {header: 'Сокращение доли сверхурочных работ до 25%'},
+      {header: 'Снижение уровня сверхнормативных запасов запчастей и материалов'},
+      {header: 'Уменьшение затрат на обслуживание оборудования до 20%'}
     ]
   }
 
@@ -71,10 +70,10 @@ const Index = () => {
   return (
     <>
       <MainSectionBlock data={dataMain}/>
-      <GridWhiteBlock data={dataKeyAdvantages}/>
+      <GridBlock data={dataKeyAdvantages}/>
       <ItBlock/>
       <CheckboxBlock data={dataTasks}/>
-      <GridBlock data={dataResult}/>
+      <GridBlock data={dataResult} theme={'color'} size={'sm'}/>
       <ProductsBlock/>
       <DiscussBlock/>
     </>

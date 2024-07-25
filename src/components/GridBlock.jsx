@@ -1,15 +1,17 @@
 import React from 'react';
 
 const GridBlock = ({
-                          data,
-                          align = 'left',
-                          className = '',
-                          size = 'md',
-                          width = '',
-                          width2 = '',
-                          theme = 'white',
-                          color = 'bg-aksioma-gradient'
-                        }) => {
+                     data,
+                     align = 'left',
+                     className = '',
+                     size = 'md',
+                     width = '',
+                     width2 = '',
+                     theme = 'white',
+                     color = 'bg-aksioma-gradient',
+                     colorIcon = '',
+                     shadow = 'normal'
+                   }) => {
 
   const themeColor = {
     color: `text-white ${color}`,
@@ -41,6 +43,11 @@ const GridBlock = ({
     sm: 'text-xl font-medium',
   }
 
+  const sizesShadow = {
+    normal: 'shadow-[0_6px_12px_0_#14142B0A]',
+    big: 'shadow-[0_24px_44px_0_#14142B0A]',
+  }
+
   return (
     <div className={`${themeColor[theme]}`}>
       <div className="w-10/12 mx-auto py-24 flex flex-col justify-between">
@@ -48,8 +55,8 @@ const GridBlock = ({
         <div className="mt-14 grid grid-cols-3 gap-8">
           {data.data.map(item => (
             <div key={item.header}
-                 className={`${className} ${alignBlock[align]} ${themeColorText[theme]} p-8 flex flex-col rounded-gst20 border shadow-[0_6px_12px_0_#14142B0A]`}>
-              {item.icon && <p>{item.icon}</p>}
+                 className={`${className} ${alignBlock[align]} ${themeColorText[theme]} ${sizesShadow[shadow]} p-8 flex flex-col rounded-gst20 border`}>
+              {item.icon && <p className={colorIcon}>{item.icon}</p>}
               <p
                 className={`${item.icon && 'mt-6'} ${sizesHeader[size]} ${width} ${alignText[align]}`}>{item.header}</p>
               {item.text && <p className={`${sizesText[size]} ${width2} ${alignText[align]} mt-6`}>{item.text}</p>}

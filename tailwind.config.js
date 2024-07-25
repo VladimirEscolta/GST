@@ -16,6 +16,7 @@ module.exports = {
       },
       borderRadius: {
         'gst3': '3px',
+        'gst7': '7px',
         'gst20': '20px'
       },
       fontSize: {

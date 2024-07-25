@@ -59,14 +59,14 @@ const Index = () => {
   const dataResult = {
     name: 'Типы управляемых активов',
     data: [
-      {text: 'Электростанции (гидро, атомные, ветряные и солнечные)'},
-      {text: 'Линии электропередач (ЛЭП)'},
-      {text: 'Электрические подстанции'},
-      {text: 'Турбины, генераторы, трансформаторы'},
-      {text: 'Ремонтное оборудование, инструменты, запчасти'},
-      {text: 'Здания и сооружения'},
-      {text: 'Центры технического обслуживания'},
-      {text: 'ИТ-активы'}
+      {header: 'Электростанции (гидро, атомные, ветряные и солнечные)'},
+      {header: 'Линии электропередач (ЛЭП)'},
+      {header: 'Электрические подстанции'},
+      {header: 'Турбины, генераторы, трансформаторы'},
+      {header: 'Ремонтное оборудование, инструменты, запчасти'},
+      {header: 'Здания и сооружения'},
+      {header: 'Центры технического обслуживания'},
+      {header: 'ИТ-активы'}
     ]
   }
 
@@ -74,8 +74,8 @@ const Index = () => {
   return (
     <>
       <MainSectionBlock data={dataMain}/>
-      <GridWhiteBlock data={dataKeyAdvantages}/>
-      <GridBlock data={dataResult}/>
+      <GridBlock data={dataKeyAdvantages}/>
+      <GridBlock data={dataResult} theme={'color'} size={'sm'}/>
       <CheckboxBlock data={dataTasks}/>
       <ItBlock/>
       <ProductsBlock/>
