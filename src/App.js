@@ -12,6 +12,7 @@ import AksiomaOilgas from "./pages/AksiomaOilgas";
 import AksiomaElectric from "./pages/AksiomaElectric";
 import Cobra from "./pages/Cobra";
 import CobraModules from "./pages/CobraModules";
+import CobraModulesDescription from "./pages/CobraModulesDescription";
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
         <Route path="/aksioma/electric" element={<AksiomaElectric/>}/>
         <Route path="/cobra" element={<Cobra/>}/>
         <Route path="/cobra/modules" element={<CobraModules/>}/>
+        <Route path="/cobra/modules/description" element={<CobraModulesDescription/>}/>
         <Route path="/about" element={<About/>}/>
       </Routes>
       <Footer/>
