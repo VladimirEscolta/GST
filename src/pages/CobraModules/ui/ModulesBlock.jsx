@@ -1,4 +1,12 @@
 import React, {useState} from 'react';
+import {
+  CobraModules1Image,
+  CobraModules2Image,
+  CobraModules3Image,
+  CobraModules4Image,
+  CobraModules5Image, CobraModules6Image
+} from "../../../assets/images";
+import {ArrowSmallIcon} from "../../../assets/icons";
 
 const ModulesBlock = () => {
 
@@ -12,6 +20,72 @@ const ModulesBlock = () => {
     {name: 'Экономика и учет', link: '/'},
     {name: 'Управление ресурсами', link: '/'},
     {name: 'Опциональные модули', link: '/'}
+  ]
+
+  const arrayModules = [
+    {
+      image: CobraModules1Image,
+      header: 'Базовые модули',
+      links: [
+        {name: 'Слот-координация', link: '/'},
+        {name: 'Расписание движения ВС', link: '/'},
+        {name: 'Суточный план полётов', link: '/'},
+        {name: 'Контроль наземного обслуживания', link: '/'},
+        {name: 'Центр сообщений', link: '/'},
+        {name: 'Шина данных', link: '/'},
+        {name: 'Администрирование', link: '/'}
+      ]
+    },
+    {
+      image: CobraModules2Image,
+      header: 'Обслуживание пассажиров и багажа',
+      links: [
+        {name: 'Регистрация пассажиров и багажа', link: '/'},
+        {name: 'Контроль досмотра пассажиров и багажа', link: '/'},
+        {name: 'Учёт неисправного и нерегулярного багажа', link: '/'},
+        {name: 'Мониторинг трансферных стыковок', link: '/'},
+        {name: 'Контроль погрузки багажа', link: '/'}
+      ]
+    },
+    {
+      image: CobraModules3Image,
+      header: 'Экономика и учет',
+      links: [
+        {name: 'Сборы', link: '/'},
+        {name: 'Аналитическая отчётность', link: '/'},
+        {name: 'Рабочий стол руководителя', link: '/'}
+      ]
+    },
+    {
+      image: CobraModules4Image,
+      header: 'Информирование пассажиров',
+      links: [
+        {name: 'Визинформ', link: '/'},
+        {name: 'Диктор', link: '/'},
+        {name: 'Телеграм-бот', link: '/'}
+      ]
+    },
+    {
+      image: CobraModules5Image,
+      header: 'Управление ресурсами',
+      links: [
+        {name: 'Терминал', link: '/'},
+        {name: 'Перрон', link: '/'},
+        {name: 'Управление динамическими ресурсами', link: '/'},
+        {name: 'Мобильные рабочие места', link: '/'},
+        {name: 'Мониторинг исполнителей 2D и 3D', link: '/'},
+        {name: 'КУРС', link: '/'}
+      ]
+    },
+    {
+      image: CobraModules6Image,
+      header: 'Опциональные модули',
+      links: [
+        {name: 'A-CDM (портал совместного принятия решений)', link: '/'},
+        {name: 'Грузовой терминал', link: '/'},
+        {name: 'Голосовой бот', link: '/'}
+      ]
+    }
   ]
 
   return (
@@ -40,6 +114,26 @@ const ModulesBlock = () => {
           >
             {item.name}
           </a>
+        ))}
+      </div>
+      <div className="mt-12 grid grid-cols-2 gap-x-8 gap-y-16">
+        {arrayModules.map(item => (
+          <div key={item.header} className="flex flex-col rounded-gst20 shadow-[0_24px_44px_0_#14142B0A]">
+            <img className="object-cover rounded-t-gst20 h-80" src={item.image} alt="cobra_modules_img"/>
+            <div className="p-8">
+              <p className="text-gst28 font-bold">{item.header}</p>
+              <div className="mt-2">
+                {item.links.map(i => (
+                  <a key={i.name} className="mt-6 flex items-center text-gst-main" href={i.link} target="_self">
+                    <div className="mr-4 -rotate-45">
+                      <ArrowSmallIcon/>
+                    </div>
+                    <p className="font-medium">{i.name}</p>
+                  </a>
+                ))}
+              </div>
+            </div>
+          </div>
         ))}
       </div>
     </div>

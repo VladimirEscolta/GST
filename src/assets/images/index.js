@@ -25,6 +25,12 @@ import AksiomaProducts2Image from './aksioma/block_products2.png'
 import AksiomaProducts3Image from './aksioma/block_products3.png'
 import AksiomaProducts4Image from './aksioma/block_products4.png'
 import AksiomaProducts5Image from './aksioma/block_products5.png'
+import CobraModules1Image from './cobra/cobra_modules1_mob.png'
+import CobraModules2Image from './cobra/cobra_modules2_mob.png'
+import CobraModules3Image from './cobra/cobra_modules3_mob.png'
+import CobraModules4Image from './cobra/cobra_modules4_mob.png'
+import CobraModules5Image from './cobra/cobra_modules5_mob.png'
+import CobraModules6Image from './cobra/cobra_modules6_mob.png'
 
 export {
   CallbackImage,
@@ -53,5 +59,11 @@ export {
   AksiomaProducts2Image,
   AksiomaProducts3Image,
   AksiomaProducts4Image,
-  AksiomaProducts5Image
+  AksiomaProducts5Image,
+  CobraModules1Image,
+  CobraModules2Image,
+  CobraModules3Image,
+  CobraModules4Image,
+  CobraModules5Image,
+  CobraModules6Image
 };
