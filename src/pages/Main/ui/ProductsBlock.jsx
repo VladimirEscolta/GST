@@ -6,11 +6,11 @@ import {Products1Image, Products2Image, Products3Image} from "../../../assets/im
 const ProductsBlock = () => {
 
   const arrayAksioma = [
-    {text: 'Аксиома: ремонты', link: '/'},
-    {text: 'Аксиома: имущество', link: '/'},
-    {text: 'Аксиома: сервис', link: '/'},
-    {text: 'Аксиома: нефтегаз', link: '/'},
-    {text: 'Аксиома: электроэнергетика', link: '/'}
+    {text: 'Аксиома: ремонты', link: '/aksioma/repair'},
+    {text: 'Аксиома: имущество', link: '/aksioma/estate'},
+    {text: 'Аксиома: сервис', link: '/aksioma/service'},
+    {text: 'Аксиома: нефтегаз', link: '/aksioma/oilgas'},
+    {text: 'Аксиома: электроэнергетика', link: '/aksioma/electric'}
   ]
 
   const arrayAdept = [
@@ -37,7 +37,7 @@ const ProductsBlock = () => {
               </a>
             ))}
           </div>
-          <Button className="mt-8" color={'main'} size={'md320'} children={'Подробнее о продуктах'} href={'/'}/>
+          <Button className="mt-8" color={'main'} size={'md320'} children={'Подробнее о продуктах'} href={'/aksioma'}/>
         </div>
         <div className="flex flex-col w-1/2 items-end">
           <img className="max-w-[630px]" src={Products1Image} alt="products1"/>
@@ -53,13 +53,13 @@ const ProductsBlock = () => {
           <p className="mt-8 text-xl font-medium leading-8 max-w-[560px]">АС «КОБРА» — решение для
             эффективного и надёжного управления рейсами в аэропорту. Автоматизирует процессы, улучшает
             координацию работы и повышает безопасность воздушного движения</p>
-          <a className="mt-8 flex items-center text-gst-main" href="/" target="_self">
+          <a className="mt-8 flex items-center text-gst-main" href="/cobra" target="_self">
             <div className="mr-4 -rotate-45">
               <ArrowSmallIcon/>
             </div>
             <p className="font-medium">АС «КОБРА»</p>
           </a>
-          <Button className="mt-8" color={'main'} size={'md320'} children={'Подробнее о продукте'} href={'/'}/>
+          <Button className="mt-8" color={'main'} size={'md320'} children={'Подробнее о продукте'} href={'/cobra'}/>
         </div>
       </div>
       <div className="flex my-16 items-center justify-between">

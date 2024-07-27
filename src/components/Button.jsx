@@ -23,6 +23,7 @@ const Button = (props) => {
   }
 
   const sizes = {
+    xs: 'w-[153px] h-[53px] rounded-gst3 text-base font-semibold',
     sm: 'w-[187px] h-[53px] rounded-gst3 text-base font-semibold',
     md: 'w-[270px] h-[70px] rounded-gst3 text-lg font-bold',
     md320: 'w-[320px] h-[70px] rounded-gst3 text-lg font-bold'

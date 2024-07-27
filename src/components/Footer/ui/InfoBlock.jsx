@@ -8,27 +8,25 @@ const InfoBlock = () => {
       <div className="text-white mx-auto w-10/12">
         <div className="flex text-base pt-24">
           <div className="flex w-1/3">
-            <GstLogoIcon/>
+            <a href="/"><GstLogoIcon/></a>
             <p className="text-sm ps-4 w-40">Глобальные сетевые технологии</p>
           </div>
           <div className="flex flex-col w-1/3">
             <a className="" href="/about">О компании</a>
-            <a className="mt-5" href="/products" target="_blank">Услуги и продукты</a>
-            <a className="mt-5" href="/contacts" target="_blank">Контакты</a>
+            <a className="mt-5" href="/products">Услуги и продукты</a>
+            <a className="mt-5" href="/contacts">Контакты</a>
           </div>
           <div className="flex flex-col w-1/3">
             <div className="font-semibold">Подписка</div>
             <div className="mt-5">Будьте в курсе наших последних новостей</div>
             <div className="flex mt-5">
               <form action='/' method='post' encType='multipart/form-data' className="inputs">
-                <div className="">
-                  <input className="form-control h-[53px] rounded-gst3 pl-5 mr-4 w-[300px] bg-[#FFFFFF33] shadow-none outline-none" type="email" name='mail'
+                <div className="flex flex-wrap">
+                  <input className="h-[53px] rounded-gst3 pl-5 mr-4 mb-4 bg-[#FFFFFF33] shadow-none outline-none" type="email" name='mail'
                          placeholder="Ваш email"
                          id="input_mail"
                   />
-                  <button type="submit" id="submit">
-                    <Button size={'sm'} color={'white'} children={'Подписаться'} href={'/'} arrow={'without'}/>
-                  </button>
+                  <Button size={'xs'} color={'white'} children={'Подписаться'} href={'/'} arrow={'without'}/>
                 </div>
               </form>
             </div>

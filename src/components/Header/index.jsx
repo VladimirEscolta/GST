@@ -24,7 +24,7 @@ const Index = () => {
     <div className="z-50 w-full flex sticky top-0 bg-white m-0 p-0 color-gst-text shadow-[0_12px_24px_0_#0B0A330A]">
       <div className="text-base font-medium mx-auto my-4 items-center justify-between flex w-10/12">
         <div className="company flex items-center">
-          <GstLogoIcon/>
+          <a href="/"><GstLogoIcon/></a>
           <p className="text ps-4 hidden lg:flex">Глобальные сетевые технологии</p>
         </div>
         <div className="menu flex">
