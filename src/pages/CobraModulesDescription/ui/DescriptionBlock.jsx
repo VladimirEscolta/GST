@@ -257,8 +257,10 @@ const DescriptionBlock = () => {
         <a href="/" className="flex items-center mr-2">Главная</a>
         <p className="text-xl mr-2">›</p>
         <a href="/cobra" className="flex mr-2">Кобра – автоматизация аэропорта</a>
+        <p className="text-xl mr-2">›</p>
+        <a href="/cobra/modules" className="flex mr-2">Описание основных модулей</a>
         <p className="text-xl mr-2 opacity-50 text-gst-text">›</p>
-        <p className="flex items-center opacity-50 text-gst-text">Описание основных модулей</p>
+        <p className="flex items-center opacity-50 text-gst-text">Подробнее</p>
       </div>
         {array.map(item => (
           <div key={item.name} className="mt-12">
