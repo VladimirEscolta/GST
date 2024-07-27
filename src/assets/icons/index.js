@@ -36,7 +36,10 @@ import {ReactComponent as AksiomaElectricIcon} from '../icons/aksioma_electric.s
 import {ReactComponent as AlarmIcon} from '../icons/alarm.svg';
 import {ReactComponent as DisksIcon} from '../icons/disks.svg';
 import {ReactComponent as GrafIcon} from '../icons/graf.svg';
-import {ReactComponent as HeaderIcon} from '../icons/header_rectangle20.svg';
+import {ReactComponent as HeaderRectangleIcon} from '../icons/header_rectangle20.svg';
+import {ReactComponent as Header1Icon} from '../icons/header1.svg';
+import {ReactComponent as Header2Icon} from '../icons/header2.svg';
+import {ReactComponent as Header3Icon} from '../icons/header3.svg';
 
 export {
   ArrowDownIcon,
@@ -76,5 +79,5 @@ export {
   AksiomaEstateIcon,
   AksiomaElectricIcon,
   AksiomaOilgasIcon,
-  AksiomaServiceIcon, HeaderIcon
+  AksiomaServiceIcon, HeaderRectangleIcon, Header1Icon, Header2Icon, Header3Icon
 };

@@ -35,6 +35,7 @@ const Index = () => {
               <div className={`${modalMenu && 'rotate-180'}`}><ArrowDownIcon/></div>
             </div>
             {modalMenu && <div ref={ref}><ModalMenu/></div>}
+            {/*<div ref={ref}><ModalMenu/></div>*/}
           </div>
           <a className="" href="/contacts" target="_blank">Контакты</a>
         </div>
