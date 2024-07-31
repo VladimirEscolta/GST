@@ -34,32 +34,32 @@ const GridBlock = ({
   }
 
   const sizesHeader = {
-    md: 'text-gst28 font-bold leading-gst42',
-    sm: 'text-2xl font-semibold',
+    md: 'text-xl sm:text-gst28 sm:leading-gst42 font-bold',
+    sm: 'text-lg sm:text-2xl font-semibold',
   }
 
   const sizesText = {
-    md: 'text-lg font-medium',
-    sm: 'text-xl font-medium',
+    md: 'text-sm sm:text-lg font-medium',
+    sm: 'text-base sm:text-xl font-medium',
   }
 
   const sizesShadow = {
     normal: 'shadow-[0_6px_12px_0_#14142B0A]',
-    big: 'shadow-[0_24px_44px_0_#14142B0A]',
+    big: 'shadow-[0_6px_12px_0_#14142B0A] sm:shadow-[0_24px_44px_0_#14142B0A]',
   }
 
   return (
     <div className={`${themeColor[theme]}`}>
-      <div className="w-10/12 mx-auto py-24 flex flex-col justify-between">
-        <p className="text-5xl font-bold">{data.name}</p>
-        <div className="mt-14 grid grid-cols-3 gap-8">
+      <div className="w-11/12 sm:w-10/12 mx-auto py-16 sm:py-24 flex flex-col justify-between">
+        <p className="text-3xl sm:text-5xl font-bold">{data.name}</p>
+        <div className="mt-10 sm:mt-14 grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-8">
           {data.data.map(item => (
             <div key={item.header}
-                 className={`${className} ${alignBlock[align]} ${themeColorText[theme]} ${sizesShadow[shadow]} p-8 flex flex-col rounded-gst20 border`}>
+                 className={`${className} ${alignBlock[align]} ${themeColorText[theme]} ${sizesShadow[shadow]} p-4 sm:p-8 flex flex-col rounded-gst20 border`}>
               {item.icon && <p className={colorIcon}>{item.icon}</p>}
               <p
-                className={`${item.icon && 'mt-6'} ${sizesHeader[size]} ${width} ${alignText[align]}`}>{item.header}</p>
-              {item.text && <p className={`${sizesText[size]} ${width2} ${alignText[align]} mt-6`}>{item.text}</p>}
+                className={`${item.icon && 'mt-4 sm:mt-6'} ${sizesHeader[size]} ${width} ${alignText[align]}`}>{item.header}</p>
+              {item.text && <p className={`${sizesText[size]} ${width2} ${alignText[align]} mt-4 sm:mt-6`}>{item.text}</p>}
             </div>
           ))}
         </div>

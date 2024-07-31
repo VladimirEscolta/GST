@@ -37,7 +37,7 @@ const Index = () => {
             {modalMenu && <div ref={ref}><ModalMenu/></div>}
             {/*<div ref={ref}><ModalMenu/></div>*/}
           </div>
-          <a className="" href="/contacts" target="_blank">Контакты</a>
+          <a className="" href="/contacts">Контакты</a>
         </div>
         <Button size={'sm'} children={'Связаться с нами'} href={'/'} arrow={'without'}/>
       </div>

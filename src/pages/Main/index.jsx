@@ -34,7 +34,7 @@ const Index = () => {
       <KeyFunctionsBlock/>
       <CallbackBlock/>
       <AdvantagesBlock/>
-      <GridBlock data={dataExpertise} align={'center'} className={'h-80 justify-center'} width={'w-80'} theme={'color'}
+      <GridBlock data={dataExpertise} align={'center'} className={'h-60 sm:h-80 justify-center'} width={''} theme={'color'}
                  color={'bg-main-gradient'} size={'sm'}/>
     </>
   );

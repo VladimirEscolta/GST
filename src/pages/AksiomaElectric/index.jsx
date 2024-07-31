@@ -75,7 +75,7 @@ const Index = () => {
     <>
       <MainSectionBlock data={dataMain}/>
       <GridBlock data={dataKeyAdvantages}/>
-      <GridBlock data={dataResult} theme={'color'} size={'sm'}/>
+      <GridBlock data={dataResult} className={'h-24 sm:h-auto justify-center sm:justify-start'} theme={'color'} size={'sm'}/>
       <CheckboxBlock data={dataTasks}/>
       <ItBlock/>
       <ProductsBlock/>
