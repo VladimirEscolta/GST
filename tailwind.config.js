@@ -9,6 +9,9 @@ module.exports = {
       sans: 'Inter, ui-sans-serif, system-ui',
     },
     extend: {
+      screens: {
+        'xs': '512px'
+      },
       colors: {
         'gst-text': '#0B0A33',
         'gst-main': '#0F86D9',

@@ -23,13 +23,13 @@ const Button = (props) => {
   }
 
   const sizes = {
-    xs: 'w-[153px] h-[53px] rounded-gst3 text-base font-semibold',
-    sm: 'w-[187px] h-[53px] rounded-gst3 text-base font-semibold',
-    md: 'w-[270px] h-[70px] rounded-gst3 text-lg font-bold',
-    md320: 'w-[320px] h-[70px] rounded-gst3 text-lg font-bold'
+    xs: 'w-[110px] sm:w-[153px] h-[40px] sm:h-[53px] text-sm sm:text-base font-semibold',
+    sm: 'w-[130px] sm:w-[187px] h-[40px] sm:h-[53px] text-sm sm:text-base font-semibold',
+    md: 'w-[187px] sm:w-[270px] h-[53px] sm:h-[70px] text-sm sm:text-lg font-semibold sm:font-bold',
+    md320: 'w-[237px] sm:w-[320px] h-[53px] sm:h-[70px] text-sm sm:text-lg font-semibold sm:font-bold '
   }
 
-  const appliedClasses = `${colors[color]} ${sizes[size]} ${className} flex items-center justify-center`;
+  const appliedClasses = `${colors[color]} ${sizes[size]} ${className} flex items-center justify-center rounded-gst3`;
 
   return (
     <>
