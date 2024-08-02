@@ -27,11 +27,14 @@ module.exports = {
         'gst15': '15px',
         'gst22': '22px',
         'gst28': '28px',
+        'gst40': '40px',
         'gst56': '56px',
         'gst64': '64px'
       },
       lineHeight: {
+        'gst22': '22px',
         'gst42': '42px',
+        'gst48': '48px',
         'gst56': '56px',
         'gst70': '70px'
       },

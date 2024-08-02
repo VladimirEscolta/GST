@@ -23,10 +23,10 @@ const Button = (props) => {
   }
 
   const sizes = {
-    xs: 'w-[110px] sm:w-[153px] h-[40px] sm:h-[53px] text-sm sm:text-base font-semibold',
-    sm: 'w-[130px] sm:w-[187px] h-[40px] sm:h-[53px] text-sm sm:text-base font-semibold',
-    md: 'w-[187px] sm:w-[270px] h-[53px] sm:h-[70px] text-sm sm:text-lg font-semibold sm:font-bold',
-    md320: 'w-[237px] sm:w-[320px] h-[53px] sm:h-[70px] text-sm sm:text-lg font-semibold sm:font-bold '
+    xs: 'w-[110px] sm:w-[153px] h-[40px] sm:h-[53px] sm:text-base sm:font-semibold',
+    sm: 'w-[130px] sm:w-[187px] h-[40px] sm:h-[53px] sm:text-base sm:font-semibold',
+    md: 'w-[175px] sm:w-[264px] h-[48px] sm:h-[67px] sm:text-lg sm:font-bold',
+    md320: 'w-[210px] sm:w-[320px] h-[48px] sm:h-[67px] text-sm sm:text-lg sm:font-bold '
   }
 
   const appliedClasses = `${colors[color]} ${sizes[size]} ${className} flex items-center justify-center rounded-gst3`;
@@ -34,8 +34,8 @@ const Button = (props) => {
   return (
     <>
       <a className={appliedClasses} {...rest}>
-        <p className={`${arrows[arrow] === 'hidden' ? '' : 'mr-4'}`}>{children}</p>
-        <p className={arrows[arrow]}><ArrowSmallIcon/></p>
+        <p className={`${arrows[arrow] !== 'hidden' ? 'sm:mr-4' : ''}`}>{children}</p>
+        <p className={`${arrows[arrow] !== 'hidden' ? 'hidden sm:flex' : 'hidden'}`}><ArrowSmallIcon/></p>
       </a>
     </>
   );

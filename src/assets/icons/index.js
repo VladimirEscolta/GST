@@ -40,6 +40,7 @@ import {ReactComponent as HeaderRectangleIcon} from '../icons/header_rectangle20
 import {ReactComponent as Header1Icon} from '../icons/header1.svg';
 import {ReactComponent as Header2Icon} from '../icons/header2.svg';
 import {ReactComponent as Header3Icon} from '../icons/header3.svg';
+import {ReactComponent as NavbarIcon} from '../icons/navbar.svg';
 
 export {
   ArrowDownIcon,
@@ -79,5 +80,5 @@ export {
   AksiomaEstateIcon,
   AksiomaElectricIcon,
   AksiomaOilgasIcon,
-  AksiomaServiceIcon, HeaderRectangleIcon, Header1Icon, Header2Icon, Header3Icon
+  AksiomaServiceIcon, HeaderRectangleIcon, Header1Icon, Header2Icon, Header3Icon, NavbarIcon
 };
