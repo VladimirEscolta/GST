@@ -41,6 +41,7 @@ import {ReactComponent as Header1Icon} from '../icons/header1.svg';
 import {ReactComponent as Header2Icon} from '../icons/header2.svg';
 import {ReactComponent as Header3Icon} from '../icons/header3.svg';
 import {ReactComponent as NavbarIcon} from '../icons/navbar.svg';
+import {ReactComponent as XIcon} from '../icons/x-mark.svg';
 
 export {
   ArrowDownIcon,
@@ -80,5 +81,5 @@ export {
   AksiomaEstateIcon,
   AksiomaElectricIcon,
   AksiomaOilgasIcon,
-  AksiomaServiceIcon, HeaderRectangleIcon, Header1Icon, Header2Icon, Header3Icon, NavbarIcon
+  AksiomaServiceIcon, HeaderRectangleIcon, Header1Icon, Header2Icon, Header3Icon, NavbarIcon, XIcon
 };

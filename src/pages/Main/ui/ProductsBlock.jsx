@@ -60,7 +60,7 @@ const ProductsBlock = () => {
     <div className="flex flex-col w-11/12 sm:w-10/12 mx-auto py-16 sm:py-24">
       <p className="text-4xl sm:text-5xl font-bold">Продукты</p>
       {data.map(item => (
-        <div className="flex flex-col sm:flex-row mt-8 sm:mt-16 items-center justify-between">
+        <div key={item.header} className="flex flex-col sm:flex-row mt-8 sm:mt-16 items-center justify-between">
           {item.position === 'right' &&
             <div className="hidden sm:flex mt-0 flex-col w-1/2 items-start">
               <img className="" src={item.image} alt="products"/>
