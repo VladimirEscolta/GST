@@ -19,7 +19,7 @@ const ProductsBlock = () => {
   ]
   return (
     <div className="w-11/12 sm:w-10/12 mx-auto py-16 sm:py-24 flex flex-col justify-between">
-      <p className="text-4xl sm:text-5xl font-bold">Продукты</p>
+      <p className="text-gst28 sm:text-5xl font-bold">Продукты</p>
       <div className="mt-10 sm:mt-14 grid grid-cols-1 sm:grid-cols-6 gap-4 sm:gap-8">
         {array.map((item, index) => (
           <div key={item.text} className={`${index > 2 ? 'col-span-1 sm:col-span-3' : 'col-span-1 sm:col-span-2'} h-48 sm:h-60 flex flex-col justify-center ps-4 sm:ps-12 rounded-gst20 bg-[#F7F7F7] border border-[#EFF0F6]`}>
