@@ -1,90 +1,102 @@
 import React from 'react';
 import Button from "../../../components/Button";
 import {ArrowSmallIcon} from "../../../assets/icons";
-import {Products1Image, Products2Image, Products3Image} from "../../../assets/images";
+import {
+  Products1Image,
+  Products1MobImage,
+  Products2Image,
+  Products2MobImage,
+  Products3Image, Products3MobImage
+} from "../../../assets/images";
 
 const ProductsBlock = () => {
 
-  const arrayAksioma = [
-    {text: 'Аксиома: ремонты', link: '/aksioma/repair'},
-    {text: 'Аксиома: имущество', link: '/aksioma/estate'},
-    {text: 'Аксиома: сервис', link: '/aksioma/service'},
-    {text: 'Аксиома: нефтегаз', link: '/aksioma/oilgas'},
-    {text: 'Аксиома: электроэнергетика', link: '/aksioma/electric'}
-  ]
-
-  const arrayAdept = [
-    {text: 'Адепт: Исполнительная документация', link: '/'},
-    {text: 'Адепт: ПНР', link: '/'},
-    {text: 'Адепт: Сварка', link: '/'},
+  const data = [
+    {
+      position: 'left',
+      text: 'Эксклюзивный партнер Интерпроком в холдинге ПАО "Газпром"',
+      header: 'Ведение проектов ТоИР на платформе Аксиома',
+      subheader: '«АКСИОМА» решение уровня ERP для управления корпоративными активами, недвижимостью и ТОиР',
+      dataLinks: [
+        {text: 'Аксиома: ремонты', link: '/aksioma/repair'},
+        {text: 'Аксиома: имущество', link: '/aksioma/estate'},
+        {text: 'Аксиома: сервис', link: '/aksioma/service'},
+        {text: 'Аксиома: нефтегаз', link: '/aksioma/oilgas'},
+        {text: 'Аксиома: электроэнергетика', link: '/aksioma/electric'}
+      ],
+      button: {text: 'Подробнее о продуктах', link: '/aksioma'},
+      image: Products1Image,
+      imageMobile: Products1MobImage,
+    },
+    {
+      position: 'right',
+      text: 'Официальный партнер RIVC-Pulkovo',
+      header: 'Автоматизированная система комплексного обслуживания рейсов в аэропорту',
+      subheader: 'АС «КОБРА» — решение для эффективного и надёжного управления рейсами в аэропорту. Автоматизирует процессы, улучшает координацию работы и повышает безопасность воздушного движения',
+      dataLinks: [
+        {text: 'АС «КОБРА»', link: '/cobra'}
+      ],
+      button: {text: 'Подробнее о продуктe', link: '/cobra'},
+      image: Products2Image,
+      imageMobile: Products2MobImage,
+    },
+    {
+      position: 'left',
+      text: 'Официальный партнер ГК Адепт',
+      header: 'Автоматизация бизнес-процесcов в строительстве',
+      subheader: 'Ведущий российский разработчик программного обеспечения для строительной отрасли',
+      dataLinks: [
+        {text: 'Адепт: Исполнительная документация', link: '/'},
+        {text: 'Адепт: ПНР', link: '/'},
+        {text: 'Адепт: Сварка', link: '/'},
+      ],
+      button: {text: 'Подробнее о продуктах', link: '/adept'},
+      image: Products3Image,
+      imageMobile: Products3MobImage,
+    }
   ]
 
   return (
-    <div className="data flex flex-col w-10/12 mx-auto py-24">
-      <p className="text-5xl font-bold">Продукты</p>
-      <div className="flex my-16 items-center justify-between">
-        <div className="flex flex-col w-1/2">
-          <p className="flex p-2.5 w-fit font-bold bg-[#0F86D91A]">Эксклюзивный партнер Интерпроком в холдинге ПАО "Газпром"</p>
-          <p className="mt-8 font-bold text-4xl leading-10 max-w-[530px]" >Ведение проектов ТоИР на платформе Аксиома</p>
-          <p className="mt-8 text-xl font-medium leading-8 max-w-[530px]" >«АКСИОМА» решение уровня ERP для управления корпоративными активами, недвижимостью и ТОиР</p>
-          <div className="mt-2">
-            {arrayAksioma.map(item => (
-              <a key={item.text} className="mt-6 flex items-center text-gst-main" href={item.link} target="_self">
-                <div className="mr-4 -rotate-45">
-                  <ArrowSmallIcon/>
-                </div>
-                <p className="font-medium">{item.text}</p>
-              </a>
-            ))}
-          </div>
-          <Button className="mt-8" color={'main'} size={'md320'} children={'Подробнее о продуктах'} href={'/aksioma'}/>
-        </div>
-        <div className="flex flex-col w-1/2 items-end">
-          <img className="max-w-[630px]" src={Products1Image} alt="products1"/>
-        </div>
-      </div>
-      <div className="flex my-16 items-center justify-between">
-        <div className="flex flex-col w-1/2">
-          <img className="max-w-[630px]" src={Products2Image} alt="products2"/>
-        </div>
-        <div className="flex flex-col w-1/2">
-          <p className="flex p-2.5 w-fit font-bold bg-[#0F86D91A]">Официальный партнер RIVC-Pulkovo</p>
-          <p className="mt-8 font-bold text-4xl leading-10 max-w-[560px]">Автоматизированная система комплексного обслуживания рейсов в аэропорту</p>
-          <p className="mt-8 text-xl font-medium leading-8 max-w-[560px]">АС «КОБРА» — решение для
-            эффективного и надёжного управления рейсами в аэропорту. Автоматизирует процессы, улучшает
-            координацию работы и повышает безопасность воздушного движения</p>
-          <a className="mt-8 flex items-center text-gst-main" href="/cobra" target="_self">
-            <div className="mr-4 -rotate-45">
-              <ArrowSmallIcon/>
+    <div className="flex flex-col w-11/12 sm:w-10/12 mx-auto py-16 sm:py-24">
+      <p className="text-4xl sm:text-5xl font-bold">Продукты</p>
+      {data.map(item => (
+        <div className="flex flex-col sm:flex-row mt-8 sm:mt-16 items-center justify-between">
+          {item.position === 'right' &&
+            <div className="hidden sm:flex mt-0 flex-col w-1/2 items-start">
+              <img className="" src={item.image} alt="products"/>
             </div>
-            <p className="font-medium">АС «КОБРА»</p>
-          </a>
-          <Button className="mt-8" color={'main'} size={'md320'} children={'Подробнее о продукте'} href={'/cobra'}/>
-        </div>
-      </div>
-      <div className="flex my-16 items-center justify-between">
-        <div className="flex flex-col w-1/2">
-          <p className="flex p-2.5 w-fit font-bold bg-[#0F86D91A]">Официальный партнер ГК Адепт</p>
-          <p className="mt-8 font-bold text-4xl leading-10 max-w-[530px]">Автоматизация
-            бизнес-процесcов в строительстве</p>
-          <p className="mt-8 text-xl font-medium leading-8 max-w-[530px]">Ведущий российский разработчик
-            программного обеспечения для строительной отрасли</p>
-          <div className="mt-2">
-            {arrayAdept.map(item => (
-              <a key={item.text} className="mt-6 flex items-center text-gst-main" href={item.link} target="_self">
-                <div className="mr-4 -rotate-45">
-                  <ArrowSmallIcon/>
-                </div>
-                <p className="font-medium">{item.text}</p>
-              </a>
-            ))}
+          }
+          <div className="flex flex-col w-full sm:w-1/2">
+            <p
+              className="flex p-2.5 w-fit text-gst15 sm:text-base font-medium sm:font-semibold bg-[#0F86D91A]">{item.text}</p>
+            <p
+              className="mt-2 sm:mt-8 font-bold text-2xl sm:text-4xl leading-7 sm:leading-gst42 max-w-[530px]">{item.header}</p>
+            <p
+              className="mt-4 sm:mt-8 text-lg sm:text-xl font-normal leading-7 sm:leading-8 max-w-[530px]">{item.subheader}</p>
+            <div className="mt-2">
+              {item.dataLinks.map(i => (
+                <a key={i.text} className="mt-4 sm:mt-6 flex items-center text-gst-main" href={i.link}
+                   target="_self">
+                  <div className="mr-4 -rotate-45">
+                    <ArrowSmallIcon/>
+                  </div>
+                  <p className="text-base sm:text-lg font-medium">{i.text}</p>
+                </a>
+              ))}
+            </div>
+            <Button className="hidden sm:flex mt-8" color={'main'} size={'md320'} children={item.button.text}
+                    href={item.button.link}/>
           </div>
-          <Button className="mt-8" color={'main'} size={'md320'} children={'Подробнее о продуктах'} href={'/'}/>
+          {item.position === 'left' &&
+            <div className="hidden sm:flex mt-0 flex-col w-1/2 items-end">
+              <img className="" src={item.image} alt="products"/>
+            </div>
+          }
+          <div className="sm:hidden mt-8 w-full items-center">
+            <img className="" src={item.imageMobile} alt="products"/>
+          </div>
         </div>
-        <div className="flex flex-col w-1/2 items-end">
-          <img className="max-w-[630px]" src={Products3Image} alt="products3"/>
-        </div>
-      </div>
+      ))}
     </div>
   );
 };

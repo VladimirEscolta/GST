@@ -8,8 +8,11 @@ import First5Image from './main/block_first5.png'
 import First6Image from './main/block_first6.png'
 import FirstRectangleImage from './main/block_first_rectangle.png'
 import Products1Image from './main/block_products1.png'
+import Products1MobImage from './main/block_products1_mobile.png'
 import Products2Image from './main/block_products2.png'
+import Products2MobImage from './main/block_products2_mobile.png'
 import Products3Image from './main/block_products3.png'
+import Products3MobImage from './main/block_products3_mobile.png'
 import Services1Image from './main/block_services1.png'
 import Services2Image from './main/block_services2.png'
 import Services3Image from './main/block_services3.png'
@@ -43,8 +46,11 @@ export {
   First6Image,
   FirstRectangleImage,
   Products1Image,
+  Products1MobImage,
   Products2Image,
+  Products2MobImage,
   Products3Image,
+  Products3MobImage,
   Services1Image,
   Services2Image,
   Services3Image,
