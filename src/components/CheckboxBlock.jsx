@@ -5,7 +5,7 @@ const CheckboxBlock = ({data}) => {
   return (
     <div className="text-gst-text bg-white">
       <div className="flex flex-col w-11/12 sm:w-10/12 mx-auto py-16 sm:py-24">
-        <p className="font-bold text-3xl sm:text-5xl">{data.name}</p>
+        <p className="font-bold text-4xl sm:text-5xl">{data.name}</p>
         {data.header && <p className="mt-8 sm:mt-12 text-sm sm:text-xl font-medium">{data.header}</p>}
         <div className="mt-8 sm:mt-12 grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-8">
           {data.data.map(item => (

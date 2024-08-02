@@ -51,7 +51,7 @@ const GridBlock = ({
   return (
     <div className={`${themeColor[theme]}`}>
       <div className="w-11/12 sm:w-10/12 mx-auto py-16 sm:py-24 flex flex-col justify-between">
-        <p className="text-3xl sm:text-5xl font-bold">{data.name}</p>
+        <p className="text-4xl sm:text-5xl font-bold">{data.name}</p>
         <div className="mt-10 sm:mt-14 grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-8">
           {data.data.map(item => (
             <div key={item.header}
