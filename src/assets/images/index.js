@@ -1,5 +1,6 @@
 import CallbackImage from './main/block_callback.png'
 import CallbackRectangleImage from './main/block_callback_rectangle.png'
+import CallbackRectangleMobImage from './main/block_callback_rectangle_mobile.png'
 import First1Image from './main/block_first1.png'
 import First2Image from './main/block_first2.png'
 import First3Image from './main/block_first3.png'
@@ -38,6 +39,7 @@ import CobraModules6Image from './cobra/cobra_modules6_mob.png'
 export {
   CallbackImage,
   CallbackRectangleImage,
+  CallbackRectangleMobImage,
   First1Image,
   First2Image,
   First3Image,

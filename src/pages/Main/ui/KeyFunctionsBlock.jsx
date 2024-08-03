@@ -41,7 +41,7 @@ const KeyFunctionsBlock = () => {
           </div>
         ))}
       </div>
-      <Button className="sm:hidden mt-12 font-medium w-full h-[48px]" size={''} color={'main'} children={'Связаться с нами'} href={'/'}/>
+      <Button className="sm:hidden mt-12 font-medium w-full h-[44px]" size={''} color={'main'} children={'Связаться с нами'} href={'/'}/>
     </div>
   );
 };
