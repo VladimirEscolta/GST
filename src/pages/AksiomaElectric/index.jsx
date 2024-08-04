@@ -1,6 +1,5 @@
 import React from 'react';
 import MainSectionBlock from "../../components/MainSectionBlock";
-import GridWhiteBlock from "../../components/GridWhiteBlock";
 import ItBlock from "../Aksioma/ui/ItBlock";
 import CheckboxBlock from "../../components/CheckboxBlock";
 import ProductsBlock from "../Aksioma/ui/ProductsBlock";

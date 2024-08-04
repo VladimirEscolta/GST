@@ -7,24 +7,13 @@ import DiscussBlock from "../../components/DiscussBlock";
 import CheckboxBlock from "../../components/CheckboxBlock";
 import GridBlock from "../../components/GridBlock";
 import {
-  AksiomaElectricIcon,
   BoxIcon,
   ControlActive1Icon,
   ControlActive2Icon,
   ControlActive3Icon, MetricIcon, SettingIcon
 } from "../../assets/icons";
-import GridWhiteBlock from "../../components/GridWhiteBlock";
-import MainSectionBlock from "../../components/MainSectionBlock";
 
 const Index = () => {
-
-  // const dataMain = {
-  //   name: 'Продукты Аксиома',
-  //   name2: false,
-  //   header: 'Управление техническим обслуживанием и ремонтами (ТОИР)',
-  //   text: 'Аксиома: электроэнергетика - это отечественная система управления техническим обслуживанием и ремонтами (ТОиР) для электроэнергетической отрасли. Платформа направлена на цифровизацию процессов ТОиР, снижение стоимости владения активами и повышение надежности и безопасности энергетического оборудования.',
-  //   icon: <AksiomaElectricIcon/>
-  // }
 
   const dataKeyAdvantages = {
     name: 'Основные направления деятельности для повышения эффективности работы активов',
@@ -84,7 +73,6 @@ const Index = () => {
 
   return (
     <>
-      {/*<MainSectionBlock data={dataMain}/>*/}
       <AksiomaBlock/>
       <ProductsBlock/>
       <AdvantagesBlock/>

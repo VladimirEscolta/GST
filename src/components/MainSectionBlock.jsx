@@ -25,7 +25,7 @@ const MainSectionBlock = ({data, theme = 'white'}) => {
       <div className="mt-8 sm:mt-16 flex items-center justify-between">
         <div className="w-full sm:w-1/2">
           <p className="flex p-2.5 w-fit text-gst15 sm:text-lg leading-gst22 sm:leading-5 font-medium sm:font-bold bg-[#0F86D91A]">{data.header}</p>
-          <p className="mt-6 font-bold text-gst40 sm:text-gst64 leading-gst48 sm:leading-gst70">{data.name}</p>
+          <p className="mt-6 font-bold text-4xl sm:text-gst64 leading-gst48 sm:leading-gst70">{data.name}</p>
           <p className="mt-6 sm:text-xl sm:font-medium leading-6 sm:leading-8">{data.text}</p>
           <Button className="mt-4 sm:mt-14" color={'main'} children={'Обсудить проект'} href={'/'}/>
         </div>
