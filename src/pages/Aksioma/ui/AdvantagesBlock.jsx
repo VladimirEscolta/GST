@@ -26,7 +26,7 @@ const AdvantagesBlock = () => {
       <p className="text-4xl sm:text-5xl font-bold">Преимущества внедрения ТоИР в цифрах</p>
       <div className="mt-8 sm:mt-14 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-8">
         {data.map(item => (
-          <div className="flex flex-col">
+          <div key={item.header} className="flex flex-col">
             <p className="text-gst-main text-gst40 2xl:text-gst56 font-bold">{item.header}</p>
             <p className="mt-0 sm:mt-4 sm:text-lg sm:font-medium text-[#9394A3] max-w-80">{item.text}</p>
           </div>
