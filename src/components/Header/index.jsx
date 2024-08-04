@@ -2,6 +2,7 @@ import React, {useEffect, useRef, useState} from 'react';
 import {ArrowDownIcon, GstLogoIcon, NavbarIcon, XIcon} from "../../assets/icons";
 import Button from "../Button";
 import ModalMenu from "./ui/ModalMenu";
+import ModalMenuMobile from "./ui/ModalMenuMobile";
 
 const Index = () => {
 
@@ -22,7 +23,7 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="z-50 w-full flex sticky top-0 bg-white m-0 p-0 color-gst-text shadow-[0_12px_24px_0_#0B0A330A]">
+    <div className="z-50 w-full flex flex-col sticky top-0 bg-white m-0 p-0 color-gst-text shadow-[0_12px_24px_0_#0B0A330A]">
       <div className="text-base font-medium mx-auto my-4 items-center justify-between flex w-11/12 sm:w-10/12">
         <div className="company flex items-center">
           <a href="/"><GstLogoIcon/></a>
@@ -33,10 +34,9 @@ const Index = () => {
           <div className="relative flex mr-4 xl:mr-10 items-center cursor-pointer">
             <div className="flex items-center" onClick={toggleDropdown}>
               <p className="mr-2">Услуги и продукты</p>
-              <div className={`${modalMenu && 'rotate-180'}`}><ArrowDownIcon/></div>
+              <div className={`${modalMenu && 'rotate-180'} text-gst-main`}><ArrowDownIcon/></div>
             </div>
-            {modalMenu && <div ref={ref}><ModalMenu/></div>}
-            {/*<div ref={ref}><ModalMenu/></div>*/}
+            {modalMenu && <div className="hidden md:flex" ref={ref}><ModalMenu/></div>}
           </div>
           <a className="" href="/contacts">Контакты</a>
         </div>
@@ -51,7 +51,7 @@ const Index = () => {
           }
         </div>
       </div>
-
+      {burgerMenu && <div className="flex md:hidden" ref={ref}><ModalMenuMobile/></div>}
     </div>
   );
 };
