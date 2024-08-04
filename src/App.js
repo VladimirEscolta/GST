@@ -13,6 +13,7 @@ import AksiomaElectric from "./pages/AksiomaElectric";
 import Cobra from "./pages/Cobra";
 import CobraModules from "./pages/CobraModules";
 import CobraModulesDescription from "./pages/CobraModulesDescription";
+import Contacts from "./pages/Contacts";
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
         <Route path="/cobra/modules" element={<CobraModules/>}/>
         <Route path="/cobra/modules/description" element={<CobraModulesDescription/>}/>
         <Route path="/about" element={<About/>}/>
+        <Route path="/contacts" element={<Contacts/>}/>
       </Routes>
       <Footer/>
     </>

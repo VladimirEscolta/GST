@@ -1,13 +1,19 @@
 import React from 'react';
 import {EnvelopeIcon, GpsIcon, PhoneIcon} from "../../../assets/icons";
+import {useLocation} from "react-router-dom";
 
 const MapBlock = () => {
+
+  const location = useLocation().pathname;
+  const pathname = location.split('/');
+  const page = pathname[pathname.length - 1];
+
   return (
     <div className="bg-white">
       <div className="w-11/12 sm:w-10/12 mx-auto py-16 sm:py-24">
         <div className="flex flex-col">
-          <p className="text-4xl lg:text-5xl font-bold">Свяжитесь с нами</p>
-          <p className="mt-4 lg:mt-6">Мы поможем вам с потребностями в системной интеграции.</p>
+          <p className="text-4xl lg:text-5xl font-bold">{page === 'contacts' ? 'Контакты' : 'Свяжитесь с нами'}</p>
+          <p className="mt-4 lg:mt-6">{page !== 'contacts' && 'Мы поможем вам с потребностями в системной интеграции.'}</p>
         </div>
         <div className="flex flex-col lg:flex-row mt-6 lg:mt-20">
           <div className="flex flex-col w-full lg:w-[400px]">

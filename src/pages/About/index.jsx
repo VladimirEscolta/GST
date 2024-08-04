@@ -30,7 +30,7 @@ const Index = () => {
     <>
       <CompanyBlock/>
       <SpecializationBlock/>
-      <GridBlock data={dataExpertise} align={'center'} className={'h-60 sm:h-80 justify-center'} width={''} size={'sm'} colorIcon={'text-gst-main'}/>
+      <GridBlock data={dataExpertise} align={'center'} className={'h-52 sm:h-80 justify-center'} size={'sm'} width={'w-60 sm:w-80'} colorIcon={'text-gst-main'}/>
       <DiscussBlock/>
     </>
   );

@@ -252,8 +252,8 @@ const DescriptionBlock = () => {
   ]
 
   return (
-    <div className="flex flex-col w-10/12 mx-auto py-24">
-      <div className="flex items-center text-sm text-gst-main">
+    <div className="flex flex-col w-11/12 sm:w-10/12 mx-auto pt-4 pb-16 sm:py-24">
+      <div className="flex flex-wrap items-center text-sm text-gst-main">
         <a href="/" className="flex items-center mr-2">Главная</a>
         <p className="text-xl mr-2">›</p>
         <a href="/cobra" className="flex mr-2">Кобра – автоматизация аэропорта</a>
@@ -263,15 +263,15 @@ const DescriptionBlock = () => {
         <p className="flex items-center opacity-50 text-gst-text">Подробнее</p>
       </div>
         {array.map(item => (
-          <div key={item.name} className="mt-12">
-            <p className="text-5xl font-bold">{item.name}</p>
-            <div className="mt-12 grid grid-cols-2 gap-8">
+          <div key={item.name} className="mt-8 sm:mt-12">
+            <p className="text-4xl sm:text-gst64 leading-gst48 sm:leading-gst70 font-bold">{item.name}</p>
+            <div className="mt-8 sm:mt-12 grid grid-cols-1 sm:grid-cols-2 gap-8">
               {item.data.map(i => (
-                <div key={i.header} className="p-8 flex flex-col rounded-gst20 border shadow-[0_6px_12px_0_#14142B0A]">
-                  <p className="text-2xl font-semibold">{i.header}</p>
+                <div key={i.header} className="p-4 sm:p-8 flex flex-col rounded-gst20 border shadow-[0_6px_12px_0_#14142B0A]">
+                  <p className="text-xl sm:text-2xl font-medium sm:font-semibold">{i.header}</p>
                   <ul className="mt-4 list-disc list-outside pl-5">
                     {i.text.map(text => (
-                      <li key={text} className="text-lg first:mt-0 mt-2">{text}</li>
+                      <li key={text} className="sm:text-lg first:mt-0 mt-2">{text}</li>
                     ))}
                   </ul>
                 </div>
